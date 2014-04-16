@@ -2,7 +2,6 @@
 layout: page
 permalink: /about/
 title: About
-tagline: Minimal Mistakes, a Jekyll Theme
 tags: [about, Jekyll, theme, responsive]
 modified: 17-4-2014
 comments: true
