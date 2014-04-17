@@ -23,7 +23,7 @@ People seem to always ask how to set up a donation button / panel on their chann
 
 <br>Once you’re done fiddling with the settings and what-not, click the “Save changes” button at the bottom and you’ll be taken to a page that gives you the website embed code and the direct email url. We want the e-mail one so click on the e-mail tab. Inside the text-box will be a link, this link is what we’ll link to an image on our Twitch channel so that people can click on the image and be taken to the PayPal checkout page so that they can donate to you.
 
-<br>From here go to your Twitch channel (i.e. twitch.tv/yourname), hover over “Admin” at the top, and click the “Edit” button. Now you can add a new panel or modify an existing panel if you so wish, simply click the “Add image” button, select your pre-made or pre-gathered donation button / image and then put the url you got from the e-mail tab in PayPal in the “Image links to” field.
+<br>From here go to your Twitch channel (i.e. twitch.tv/yourname), scroll down and look for the "edit panels" toggle and the click "on" option. Now you can add a new panel or modify an existing panel if you so wish, simply click the “Add image” button, select your pre-made or pre-gathered donation button / image and then put the url you got from the e-mail tab in PayPal in the “Image links to” field.
 
 <br>Give your panel a name such as “tip jar”, “donations” or whatever you want to call it, submit the panel and you’re done!
 
