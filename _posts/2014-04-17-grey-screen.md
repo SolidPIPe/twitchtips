@@ -28,8 +28,8 @@ Go to: Settings > Privacy > Content settings > Javascript
 
 ### Mozilla Firefox
 In the URL / Address bar type: about:config and proceed to press enter  
-<br>You may see a "warranty" screen, simply click the button saying "I'll be careful, I promise!" 
-<br>Once you're in, type "javascript.enabled" into the search bar below the URL bar
+<br>You may see a "warranty" screen, simply click the button saying "I'll be careful, I promise!"  
+<br>Once you're in, type "javascript.enabled" into the search bar below the URL bar  
 <br>Once you see the "javascript.enabled" preference, make sure the assigned value is "true" and not "false". If it's false simply right click and hit the "toggle option".  
 
 ## Extensions
