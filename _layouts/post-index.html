@@ -36,6 +36,7 @@
 
 <div id="index">
   <h1>{{ page.title }}</h1>
+  {% unless page.category %}
   {% for post in site.posts %}  
     <article>
       {% if post.link %}
@@ -46,6 +47,16 @@
       {% endif %}
     </article>
   {% endfor %}
+  {% else %}
+      {% for post in site.posts %}  
+      <article>
+        {% if page.category == "get-started" and post.get-started %}
+          <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+          <p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+        {% endif %}
+      </article>
+      {% endfor %}
+  {% endunless %}
 </div><!-- /#index -->
 
 <div class="footer-wrap">
