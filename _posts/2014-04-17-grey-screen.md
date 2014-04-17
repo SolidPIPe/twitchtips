@@ -23,7 +23,9 @@ Got the issue where you can only see a grey screen with the Twitch logo centered
 
 ## GOOGLE CHROME
 Go to: Settings > Privacy > Content settings > Javascript  
+
 From here make sure "Allow all sites to run JavaScript" is selected  
+
 Once you're sure, click "Done"  
 
 ## MOZILLA FIREFOX
