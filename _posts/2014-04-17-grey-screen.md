@@ -50,7 +50,7 @@ Once you've made sure JavaScript is enabled on your browser and you're still get
 
 The part we all didn't want to get to; Malware can be very annoying, sophisticated and a general pain in the ass to deal with. However, we have some wonderful tools available to us!  
 <br>My advice is to install AdwCleaner and Malwarebytes and scan for any malware / adware or general horribleness lurking on your PC.  
-Below are links to said tools, please let us know in the comments if you do manage to find anything so we can keep others up to date!  
+<br>Below are links to said tools, please let us know in the comments if you do manage to find anything so we can keep others up to date!  
 
 * [MalwareBytes - Free Anti-Malware & Internet Security Software](https://www.malwarebytes.org/)
 * [[Bleeping Computer] AdwCleaner](http://www.bleepingcomputer.com/download/adwcleaner/)
