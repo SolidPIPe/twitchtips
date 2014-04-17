@@ -29,7 +29,7 @@ Go to: Settings > Privacy > Content settings > Javascript
 ### Mozilla Firefox
 In the URL / Address bar type: about:config and proceed to press enter  
 <br>You may see a "warranty" screen, simply click the button saying "I'll be careful, I promise!" 
-<br>Once you're in, type "javascript.enabled" into the search bar below the URL bar  
+<br>Once you're in, type "javascript.enabled" into the search bar below the URL bar
 <br>Once you see the "javascript.enabled" preference, make sure the assigned value is "true" and not "false". If it's false simply right click and hit the "toggle option".  
 
 ## Extensions
@@ -42,7 +42,7 @@ Once you've made sure JavaScript is enabled on your browser and you're still get
 
 ## Anti-Virus / Security Software
 
-<br>There's hundreds of anti-virus and security software programs out there so it's practically impossible for me to list every single one with detailed instructions on what to do.  
+There's hundreds of anti-virus and security software programs out there so it's practically impossible for me to list every single one with detailed instructions on what to do.  
 <br>Simply, you're looking for browser, network or web protection that allows you to configure the level of security the software will attempt to abide by.  
 <br>If you can, try to disable any firewall or web protection for a couple of minutes and try loading Twitch, still getting the issue? If not then you're perpetrator is somewhere within those security settings, fiddle around and let us know how you fixed it so we can keep others up to date!  
 
