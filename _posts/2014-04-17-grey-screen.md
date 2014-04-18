@@ -35,7 +35,7 @@ In the URL / Address bar type: about:config and proceed to press enter
 ## Extensions
 Once you've made sure JavaScript is enabled on your browser and you're still getting the grey screen, its time to check extensions!  
 <br>Firstly, lets test something - in your browser open up an incognito window (don't lie, you know what that is) and try loading Twitch. Do you still get the same error?  
-<br>If so you're problem isn't likely to be an extension (make sure by checking extensions the browser allows to run in incognito mode - if you see no active extensions in incognito move down to the next section).  
+<br>If so your problem isn't likely to be an extension (make sure by checking extensions the browser allows to run in incognito mode - if you see no active extensions in incognito move down to the next section).  
 <br>If you did manage to load Twitch successfully then your perpetrator is likely an extension, go to your extension listings and make sure to disable all extensions.  
 <br>Now try to load Twitch again, if it works you can begin to enable extensions one by one until you find the one that is causing the issue and remove it from your installed extensions.  
 <br>**Still not working, lets move onto anti-virus / security software potentially blocking JS from being executed etc**  
