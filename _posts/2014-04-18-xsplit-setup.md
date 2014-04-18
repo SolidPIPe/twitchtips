@@ -7,6 +7,7 @@ comments: true
 draft: true
 image:
   feature: xsplit.png
+get-started: true
 ---
 
 XSplit Broadcaster is one of the most popular broadcasting programs on Twitch and comes highly recommended. XSplit Broadcaster is considered an all-in-one solution as it allows the broadcaster to edit their stream with multiple camera shots, graphical overlays, chroma key, and picture-in-picture effects, as well as encoding the video feed with highly flexible range of quality options.  
