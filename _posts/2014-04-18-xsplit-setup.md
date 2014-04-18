@@ -77,3 +77,9 @@ Note: All audio sources added in XSplit rely on your Windows 7 Default Device fo
 #### Connecting to Twitch
 1. Go to Broadcast > Twitch Username.
 2. Open your web browser and go to [http://twitch.tv/broadcast/dashboard](http://twitch.tv/broadcast/dashboard) to view both your channel and your chat window.
+
+<br>This post is a modified and re-designed version of Xangold's original post on the official Twitch Helpdesk.	
+<br><br>Thanks to him for putting so much effort into the original!	
+
+* [Xangold](https://www.twitter.com/xangold)
+* [Original Post](http://help.twitch.tv/customer/portal/articles/733542-xsplit)
