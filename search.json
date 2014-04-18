@@ -3,7 +3,9 @@ layout: nil
 ---
 [
   {% for post in site.posts %}
-    {% include post.json %},
+  	{% unless post.draft %}
+    	{% include post.json %},
+    {% endunless %}
   {% endfor %}
   null
 ]

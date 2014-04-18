@@ -8,14 +8,18 @@ layout: nil
     </url>
     
     {% for page in site.pages %}
-    <url>
-        <loc>{{ site.url }}{{ page.url }}</loc>
-    </url>
+        {% unless page.draft %}
+        <url>
+            <loc>{{ site.url }}{{ page.url }}</loc>
+        </url>
+        {% endunless %}
     {% endfor %}
 
     {% for post in site.posts %}
-    <url>
-        <loc>{{ site.url }}{{ post.url }}</loc>
-    </url>
+        {% unless post.draft %}
+        <url>
+            <loc>{{ site.url }}{{ post.url }}</loc>
+        </url>
+        {% endunless %}
     {% endfor %}
 </urlset>
