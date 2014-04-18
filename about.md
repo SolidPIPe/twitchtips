@@ -22,11 +22,11 @@ Below is a list of all those who currently work on, add to or maintain this blog
 * [Twitch Admin] Truthful [@TruthfulUK](http://twitter.com/TruthfulUK)
 * David Marby [@DMarby](http://twitter.com/DMarby)
 
-# Got a request?
+### Got a request?
 
 Before Requesting a tip, trick or tutorial, please make sure it hasn’t already been posted or discussed. To make a request you can use one of the following methods, if what you request has already been posted or discussed previously, it’ll be ignored; sorry!
 
-## The ways you can request are as follows:
+#### The ways you can request are as follows:
 
 * Send an email to: [twitchtips@gmail.com](mailto:twitchtips@gmail.com)
 * Tweet to us, [@TwitchTips](http://twitter.com/TwitchTips)
