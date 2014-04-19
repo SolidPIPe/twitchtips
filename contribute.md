@@ -1,7 +1,9 @@
 ---
-layout: post
+layout: page
 title: Want to Contribute to Twitch Tips?
+modified: 17-4-2014
 description: "Looking to contribute content to Twitch Tips? Check out how here!"
+permalink: /contribute/
 tags: [twitch,tips,contribute,content]
 comments: true
 ---
@@ -32,5 +34,5 @@ draft: true
 Content text here, blah blah blah filler.
 {% endhighlight %}
 
-You can then send your post to [contact@twitchtips.com](mailto:contact@twitchtips.com), or fork our repo over at [Github](http://github.com/TwitchTips/twitchtips) and send us a pull-request. If you are sending a pull-request, put your post in a file named Year-month-day-title.md in the _posts directory(Eg, 2014-04-19-contribute.md).
+You can then send your post to [contact@twitchtips.com](mailto:contact@twitchtips.com), or fork our repo over at [Github](http://github.com/TwitchTips/twitchtips) and send us a pull-request. If you are sending a pull-request, put your post in a file named Year-month-day-title.md in the _posts directory (Eg, 2014-04-19-contribute.md).
 
