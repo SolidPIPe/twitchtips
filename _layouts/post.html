@@ -41,6 +41,12 @@
       {% else %}
         <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
       {% endif %}
+      <div id="social-share">
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook"><span class="count"><i class="icon-facebook"></i> Like</span></a>
+        <a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}&via=TwitchTips" title="Share on Twitter"><span class="count"><i class="icon-twitter"></i> Tweet</span></a>
+        <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google Plus"><span class="count"><i class="icon-google-plus"></i> +1</span></a>
+        <a href="http://reddit.com/submit?url={{ site.url }}{{ page.url }}" title="Share on Reddit"><span class="count"><i class="icon-reddit"></i> Reddit</span></a>
+    </div>
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
       {{ content }}
