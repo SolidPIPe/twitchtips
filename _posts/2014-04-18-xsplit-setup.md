@@ -4,7 +4,6 @@ title: XSplit Setup
 description: "Ready to start casting, here's a setup guide for XSplit!"
 tags: [twitch,xsplit,setup,guide,newbie,get,started]
 comments: true
-draft: true
 image:
   feature: xsplit.png
 get-started: true
