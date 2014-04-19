@@ -2,4 +2,4 @@ Repo for TwitchTips.
 Powered by [Jekyll](http://jekyllrb.com) using the [Minimal Mistakes](http://mademistakes.com/minimal-mistakes) theme.
 
 Contribution guidelines:
-[http://twitchtips.com/contribute](Contribute)
+[Contribute](http://twitchtips.com/contribute)
