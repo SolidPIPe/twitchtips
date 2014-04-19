@@ -28,5 +28,5 @@ Before Requesting a tip, trick or tutorial, please make sure it hasn’t already
 
 #### The ways you can request are as follows:
 
-* Send an email to: [twitchtips@gmail.com](mailto:twitchtips@gmail.com)
+* Send an email to: [contact@twitchtips.com](mailto:contact@twitchtips.com)
 * Tweet to us, [@TwitchTips](http://twitter.com/TwitchTips)
