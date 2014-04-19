@@ -89,3 +89,5 @@ Note: All audio sources added in XSplit rely on your Windows 7 Default Device fo
 
 * [Xangold](https://www.twitter.com/xangold)
 * [Original Post](http://help.twitch.tv/customer/portal/articles/733542-xsplit)
+
+<br>Also thanks to fellow [Twitch Admin PIPe](http://www.twitch.tv/pipe) for letting me borrow his XSplit account to do .. things!
