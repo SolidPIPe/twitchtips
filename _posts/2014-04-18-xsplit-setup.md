@@ -32,7 +32,13 @@ XSplit comes in a variety of Free, Personal and Premium versions, each with its 
 After finishing this guide, there’s more information available in the XSplit Beginner's Guide on YouTube.
 
 ### Step 1) Adding Sources
-For PC games, you have two choices on how to capture your gameplay. Either by capturing the screen region, or by achieving a direct feed via game source (only available in XSplit Personal and Premium).
+For PC games, you have two choices on how to capture your gameplay. Either by capturing the screen region, or by achieving a direct feed via game source (only available in XSplit Personal and Premium).  
+
+The screenshot below details where you can find the dropdown menu to add sources;  
+
+<figure>
+    <a href="/images/xsplit_guide/settings.png"><img src="/images/xsplit_guide/sources.png"></a>
+</figure>
  
 #### Screen Region Method
 1. Go to Add > Add Screen Region.
