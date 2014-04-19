@@ -18,7 +18,7 @@ Twitch Tips is designed so that anyone and everyone can find helpful content wri
 Whether you're writing about hardware, software or general community building; we'd love to have you write content for others!    
 <br>
 At the moment we're using Jekyll, blogging software ran and hosted on GitHub. Posts are written in a markdown format (.md).    
-<br>    
+<br>
 We don't expect everyone to know how to write their stuff in markdown but if you do you'll find basics further into the post.
 <br>     
 If you're unsure about markdown, no problem - simply write up your content in a normal word processor (Sublime Text, Google Docs etc) and send us an email with said content at: [contact@twitchtips.com](mailto:contact@twitchtips.com).    
