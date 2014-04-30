@@ -25,13 +25,13 @@ BetterTTV Enhances Twitch with new features, bug fixes, and reduced clutter.
 * Username tab completion
  
 * Broadcast Dashboard
-Prioritizes chat, and auto-updates channel statistics
+<br>Prioritizes chat, and auto-updates channel statistics
  
 * Darken Twitch
-A slick, grey theme which will make you love Twitch even more
+<br>A slick, grey theme which will make you love Twitch even more
  
 * Notifications
-On-site and desktop notifications when people send you messages, mention you in chat, and when channels you follow go live & More!
+<br>On-site and desktop notifications when people send you messages, mention you in chat, and when channels you follow go live & More!
  
 ----
  
