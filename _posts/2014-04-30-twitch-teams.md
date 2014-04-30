@@ -55,6 +55,8 @@ To join a team follow below instructions;
 
 The three options you also have are to share your stats (partner only), your revenue (advertising, partner only), and to set a certain team - if you're part of more than one - as your featured team under your stream title.
 
+<br>The revenue option allows the team owner to see your revenue if you are a Twitch Partner. However, your revenue remains tied to your account only and is not shared with the team owner or the team in any other way.
+
 ## How do you leave a team?
 To leave a team follow below instructions;
 
@@ -75,9 +77,9 @@ There are finer points of team dynamics as well. Read on if you need more on the
 ## What benefits can being in a team really provide?
 Some teams are not active in cross-promotion or pushing a particular brand. These sorts of teams are quite dormant for networking and therefore do not provide much benefit to the team members in terms of channel growth. 
 
-<br>These sorts of teams might prefer to show an exclusive circle of friends or a collection of streamers under a network that are not tied together on any other aspect. Often though, to be in a team means you are there to promote your fellow teammates as well as be promoted by them. 
+<br>These sorts of teams might prefer to show an exclusive circle of friends or a collection of streamers under a network that are not tied together on any other aspect. Often though, to be in a team means you are there to promote your fellow team-mates as well as be promoted by them. 
 
-<br>It's a mutually beneficial sort of thing. I'd suggest you don't expect much if you aren't willing to pitch in. Remember, this micro-community only has as much value as you and your fellow teammates place in it!
+<br>It's a mutually beneficial sort of thing. I'd suggest you don't expect much if you aren't willing to pitch in. Remember, this micro-community only has as much value as you and your fellow team-mates place in it!
 
 ## Is it better or worse to be on more than one team?
 From what I've seen, there are some people who stick to only one team and focus only on that. There are others who are in 3+ teams which all share roughly the same viewership; and in this sort of situation, most streamers in each team often play the same games. 
