@@ -35,7 +35,7 @@ BetterTTV Enhances Twitch with new features, bug fixes, and reduced clutter.
  
 ----
  
-A Quick guide to setting up BetterTTV
+## A Quick guide to setting up BetterTTV
  
 ----
  
@@ -49,13 +49,17 @@ Download it from the specific link for your browser
 <br><a href="http://www.nightdev.com/betterttv/betterttv.user.js">UserScript for GreaseMonkey / Tamper Monkey</a>
  
 <br>Once you have installed it navigate to a TwitchTV channel, Click the Cog And Click BetterTTV Settings.
- 
-<img src="/images/customization_guide/bttv_howto_settings.png">
- 
+
+<figure>
+  <a href="/images/customization_guide/bttv_howto_settings.png"><img src="/images/customization_guide/bttv_howto_settings.png"></a>
+</figure>
+
 <br>Then choose your settings, Below are my custom settings which I think are the best way to do it but feel free to try everything out!
- 
-<img src="/images/customization_guide/bttv_custom_settings.png">
- 
+
+<figure>
+  <a href="/images/customization_guide/bttv_custom_settings.png"><img src="/images/customization_guide/bttv_custom_settings.png"></a>
+</figure>
+
 ----
  
 Write up by <a href="http://twitter.com/GavXD">Gav</a>, Thanks to <a href="http://nightdev.com/">NightDev</a> for his amazing Add-on!
