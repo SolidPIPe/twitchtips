@@ -5,7 +5,6 @@ description: "Twitch teams. That feeling of being a part of something special wi
 tags: [twitch,teams,community,networking]
 comments: true
 get-started: true
-draft: true
 ---
 
 Twitch teams. That feeling of being a part of something special with your fellow broadcasters. 
