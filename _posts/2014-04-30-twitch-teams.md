@@ -30,7 +30,13 @@ If someone is a part of at least one team, you'll be able to see this under thei
 ## Who can make a team?
 Teams can only be created by a partnered streamer (no sub button required!). 
 
-<br>The partner emails partnersupport in order to request a team. Once approved, the partner can then go to Settings > Channels & Videos then scroll down to "Teams", click "Edit" team (or just add your team url name to this: http://www.twitch.tv/team/YOURNAMEHERE/edit) and add members, manage the order in which members will appear, and add art to spiff the main-page up. 
+<br>The partner emails partnersupport in order to request a team. Once approved, the partner can then go to; 
+
+* Settings
+* Click "Channels & Videos"
+* Scroll down to "Teams"
+
+Click "Edit" team (or just add your team url name to this: http://www.twitch.tv/team/YOURNAMEHERE/edit) and add members, manage the order in which members will appear, and add art to spiff the main-page up. 
 
 <br>You can add a featured channel to this main-page, review the archives, as well as review stats and revenue for any team member that has enabled sharing these features.
 
@@ -41,12 +47,24 @@ Nope! You are free to have as exclusive or as populated of a team as you like.
 Nope! Commit to a singular meaningful favorite or collect them like Pokémon.
 
 ## How do you join a team?
-You go to Settings > Channels & Videos then scroll down to "Teams" and select "Accept" an invite.
+To join a team follow below instructions;
 
-<br>The three options you also have are to share your stats (partner only), your revenue (advertising, partner only), and to set a certain team - if you're part of more than one - as your featured team under your stream title.
+* Go to your Settings
+* Click "Channels & Videos"
+* Scroll down to "Teams"
+* Select "Accept" on an invite.
+
+The three options you also have are to share your stats (partner only), your revenue (advertising, partner only), and to set a certain team - if you're part of more than one - as your featured team under your stream title.
 
 ## How do you leave a team?
-You go to Settings > Channels & Videos then scroll down to "Teams" and select "Remove" for the team you wish to leave (read below for the social side of this action). 
+To leave a team follow below instructions;
+
+* Go to your Settings
+* Click "Channels & Videos"
+* Scroll down to "Teams"
+* Select "Remove" for the team you wish to leave 
+ 
+**(Note: read below for the social side of this action)**
 
 ---
 
