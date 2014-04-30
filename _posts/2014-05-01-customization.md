@@ -9,7 +9,7 @@ comments: true
 BetterTTV Enhances Twitch with new features, bug fixes, and reduced clutter.
 <br /><br />
 ## Features
-<br /><br />
+<br />
 • Chat Tweaks<br />
 • Blacklist spam<br />
 • Chat field history<br />
@@ -33,6 +33,9 @@ A slick, grey theme which will make you love Twitch even more
 On-site and desktop notifications when people send you messages, mention you in chat, and when channels you follow go live & More!
 <br />
 ### A Quick guide to setting up BetterTTV
+
+----
+
 <br />
 Download it from the specific link for your browser
 <br />
@@ -40,7 +43,7 @@ Download it from the specific link for your browser
 <a href="http://www.nightdev.com/betterttv/betterttvfirefox.xpi">Firefox</a><br />
 <a href="http://www.nightdev.com/betterttv/betterttvopera.nex">Opera</a><br />
 <a href="http://www.nightdev.com/betterttv/betterttvsafari.safariextz">Safari</a><br />
-<a href="http://www.nightdev.com/betterttv/betterttvie.exe">Internet Explorer</a><br /><br />
+<a href="http://www.nightdev.com/betterttv/betterttvie.exe">Internet Explorer</a><br />
 
 Or you can use this userscript for Greasemonkey (FireFox), TamperMonkey (Chrome) or any other browsers that support userscripts <a href="http://www.nightdev.com/betterttv/betterttv.user.js">here</a>
 <br />
