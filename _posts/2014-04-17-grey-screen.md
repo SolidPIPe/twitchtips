@@ -8,10 +8,6 @@ image:
   feature: gray-feature.png
 ---
 
-<figure>
-    <a href="/images/https-everywhere.png"><img src="/images/https-everywhere.png"></a>
-</figure>
-
 Got the issue where you can only see a grey screen with the Twitch logo centered in the middle? Well, here's how to fix that issue!
 
 <br>The reason(s) you may be getting this issue is due to one of the following;
