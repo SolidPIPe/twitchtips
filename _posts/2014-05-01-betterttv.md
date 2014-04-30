@@ -41,18 +41,18 @@ A Quick guide to setting up BetterTTV
  
 Download it from the specific link for your browser
  
-<a href="https://chrome.google.com/webstore/detail/betterttv/ajopnjidmegmdimjlfnijceegpefgped?hl=en">Chrome</a>
-<a href="http://www.nightdev.com/betterttv/betterttvfirefox.xpi">Firefox</a>
-<a href="http://www.nightdev.com/betterttv/betterttvopera.nex">Opera</a>
-<a href="http://www.nightdev.com/betterttv/betterttvsafari.safariextz">Safari</a>
-<a href="http://www.nightdev.com/betterttv/betterttvie.exe">Internet Explorer</a>
-<a href="http://www.nightdev.com/betterttv/betterttv.user.js">UserScript for GreaseMonkey / Tamper Monkey</a>
+<br><a href="https://chrome.google.com/webstore/detail/betterttv/ajopnjidmegmdimjlfnijceegpefgped?hl=en">Chrome</a>
+<br><a href="http://www.nightdev.com/betterttv/betterttvfirefox.xpi">Firefox</a>
+<br><a href="http://www.nightdev.com/betterttv/betterttvopera.nex">Opera</a>
+<br><a href="http://www.nightdev.com/betterttv/betterttvsafari.safariextz">Safari</a>
+<br><a href="http://www.nightdev.com/betterttv/betterttvie.exe">Internet Explorer</a>
+<br><a href="http://www.nightdev.com/betterttv/betterttv.user.js">UserScript for GreaseMonkey / Tamper Monkey</a>
  
-Once you have installed it navigate to a TwitchTV channel, Click the Cog And Click BetterTTV Settings.
+<br>Once you have installed it navigate to a TwitchTV channel, Click the Cog And Click BetterTTV Settings.
  
 <img src="/images/customization_guide/bttv_howto_settings.png">
  
-Then choose your settings, Below are my custom settings which I think are the best way to do it but feel free to try everything out!
+<br>Then choose your settings, Below are my custom settings which I think are the best way to do it but feel free to try everything out!
  
 <img src="/images/customization_guide/bttv_custom_settings.png">
  
