@@ -23,7 +23,7 @@ A Twitch team is a grouping of streamers who voluntarily join upon being invited
 If someone is a part of at least one team, you'll be able to see this under their stream title. Like so:
 
 <figure>
-    <a href="http://i.imgur.com/aZ3ENpN.png"><img src="http://i.imgur.com/aZ3ENpN.png"></a>
+    <a href="/images/twitch-tips.png"><img src="/images/twitch-tips.png"></a>
 </figure>
 
 ## Who can make a team?
