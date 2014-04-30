@@ -10,42 +10,39 @@ BetterTTV Enhances Twitch with new features, bug fixes, and reduced clutter.
 <br /><br />
 ## Features
 <br /><br />
-*Chat Tweaks<br />
-*Blacklist spam<br />
-*Chat field history<br />
-*Highlight words and phrases<br />
-*Improved connection monitoring<br />
-*Improved server selection<br />
-*Resizeable (drag-able) chat<br />
-*Show or remove deleted messages<br />
-*Split chat lines and paragraph indentation<br />
-*Unban all users with /massunban<br />
-*Username color calculation (prevents hard-to-read names)<br />
-*Username tab completion<br />
+•Chat Tweaks<br />
+•Blacklist spam<br />
+•Chat field history<br />
+•Highlight words and phrases<br />
+•Improved connection monitoring<br />
+•Improved server selection<br />
+•Resizeable (drag-able) chat<br />
+•Show or remove deleted messages<br />
+•Split chat lines and paragraph indentation<br />
+•Unban all users with /massunban<br />
+•Username color calculation (prevents hard-to-read names)<br />
+•Username tab completion<br />
 <br />
-*Broadcast Dashboard<br />
+•Broadcast Dashboard<br />
 Prioritizes chat, and auto-updates channel statistics
 <br />
-*Darken Twitch<br />
+•Darken Twitch<br />
 A slick, grey theme which will make you love Twitch even more
 <br />
-*Notifications<br />
+•Notifications<br />
 On-site and desktop notifications when people send you messages, mention you in chat, and when channels you follow go live & More!
-
-<br /><br />
-
+<br />
 ### A Quick guide to setting up BetterTTV
-<br /><br />
+<br />
 Download it from the specific link for your browser
-<br /><br />
+<br />
 <a href="https://chrome.google.com/webstore/detail/betterttv/ajopnjidmegmdimjlfnijceegpefgped?hl=en">Chrome</a><br />
 <a href="http://www.nightdev.com/betterttv/betterttvfirefox.xpi">Firefox</a><br />
 <a href="http://www.nightdev.com/betterttv/betterttvopera.nex">Opera</a><br />
 <a href="http://www.nightdev.com/betterttv/betterttvsafari.safariextz">Safari</a><br />
 <a href="http://www.nightdev.com/betterttv/betterttvie.exe">Internet Explorer</a><br /><br />
-Or
-<br /><br />
-You can use this userscript for Greasemonkey (FireFox), TamperMonkey (Chrome) or any other browsers that support userscripts <a href="http://www.nightdev.com/betterttv/betterttv.user.js">here</a>
+
+Or you can use this userscript for Greasemonkey (FireFox), TamperMonkey (Chrome) or any other browsers that support userscripts <a href="http://www.nightdev.com/betterttv/betterttv.user.js">here</a>
 <br />
 Once you have installed it navigate to a TwitchTV channel, Click the COG And Click BetterTTV Settings.
 <br /><br />
