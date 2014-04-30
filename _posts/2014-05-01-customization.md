@@ -10,7 +10,7 @@ draft: true
 BetterTTV Enhances Twitch with new features, bug fixes, and reduced clutter.
 <br><br>
 ## Features
-
+<br>
 • Chat Tweaks<br />
 • Blacklist spam<br />
 • Chat field history<br />
