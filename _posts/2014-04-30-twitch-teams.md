@@ -94,9 +94,7 @@ Remember that you are your brand on Twitch. Whatever manner you conduct yourself
 	
 <br>This article was written by the wonderful Shannon (AKA: ShannonZKiller).
 
-> I am the community manager/partner for a streamer named Sacriel, and am also a Twitch Admin. 
-> 
-> You can expect community related posts from me here from time to time. Have a suggestion or request for a topic you'd like to know more on? Put it in a comment below!
+> I am the community manager/partner for a streamer named Sacriel, and am also a Twitch Admin. You can expect community related posts from me here from time to time. Have a suggestion or request for a topic you'd like to know more on? Put it in a comment below!
 
 You can find Shannon at the following places around the web!
 
