@@ -51,13 +51,13 @@ Download it from the specific link for your browser
 <br>Once you have installed it navigate to a TwitchTV channel, Click the Cog And Click BetterTTV Settings.
 
 <figure>
-  <a href="/images/customization_guide/bttv_howto_settings.png"><img src="/images/customization_guide/bttv_howto_settings.png"></a>
+ <a href="/images/customization_guide/bttv_howto_settings.png"><img src="/images/customization_guide/bttv_howto_settings.png"></a>
 </figure>
 
 <br>Then choose your settings, Below are my custom settings which I think are the best way to do it but feel free to try everything out!
 
 <figure>
-  <a href="/images/customization_guide/bttv_custom_settings.png"><img src="/images/customization_guide/bttv_custom_settings.png"></a>
+ <a href="/images/customization_guide/bttv_custom_settings.png"><img src="/images/customization_guide/bttv_custom_settings.png"></a>
 </figure>
 
 ----
