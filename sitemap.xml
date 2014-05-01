@@ -6,16 +6,8 @@
     
     
         
-    
-        
         <url>
-            <loc>http://twitchtips.com/feed.xml</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://twitchtips.com/search.html</loc>
+            <loc>http://twitchtips.com/posts/</loc>
         </url>
         
     
@@ -27,13 +19,27 @@
     
         
         <url>
-            <loc>http://twitchtips.com/index.html</loc>
+            <loc>http://twitchtips.com/contribute/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://twitchtips.com/posts/</loc>
+            <loc>http://twitchtips.com/about/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://twitchtips.com/search.html</loc>
+        </url>
+        
+    
+        
+    
+        
+        <url>
+            <loc>http://twitchtips.com/index.html</loc>
         </url>
         
     
@@ -45,19 +51,13 @@
     
         
         <url>
-            <loc>http://twitchtips.com/contribute/</loc>
+            <loc>http://twitchtips.com/feed.xml</loc>
         </url>
         
     
         
         <url>
             <loc>http://twitchtips.com/404.html</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://twitchtips.com/about/</loc>
         </url>
         
     
