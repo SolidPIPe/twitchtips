@@ -19,7 +19,7 @@ repo: twitchtips
 branch: master
 
 lunr_search:
-  excludes: [sitemap.xml,feed.xml]
+  excludes: [sitemap.xml,feed.xml,404.html,/drafts/,/posts/,search.html,index.html]
 
 # Owner/author information
 owner:
