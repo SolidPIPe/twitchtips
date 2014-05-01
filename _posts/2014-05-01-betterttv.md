@@ -32,20 +32,16 @@ BetterTTV Enhances Twitch with new features, bug fixes, and reduced clutter.
  
 * Notifications
 <br>On-site and desktop notifications when people send you messages, mention you in chat, and when channels you follow go live & More!
- 
-----
- 
+
 ## A Quick guide to setting up BetterTTV
- 
-----
- 
-Download it from the specific link for your browser
-<br>[Chrome](https://chrome.google.com/webstore/detail/betterttv/ajopnjidmegmdimjlfnijceegpefgped?hl=en)
-<br>[Firefox](http://www.nightdev.com/betterttv/betterttvfirefox.xpi)
-<br>[Opera](http://www.nightdev.com/betterttv/betterttvopera.nex)
-<br>[Safari](http://www.nightdev.com/betterttv/betterttvsafari.safariextz)
-<br>[Internet Explorer](http://www.nightdev.com/betterttv/betterttvie.exe)
-<br>[UserScript for GreaseMonkey / Tamper Monkey](http://www.nightdev.com/betterttv/betterttv.user.js)
+
+Download it from the specific link for your browser  
+[Chrome](https://chrome.google.com/webstore/detail/betterttv/ajopnjidmegmdimjlfnijceegpefgped?hl=en)  
+[Firefox](http://www.nightdev.com/betterttv/betterttvfirefox.xpi)  
+[Opera](http://www.nightdev.com/betterttv/betterttvopera.nex)  
+[Safari](http://www.nightdev.com/betterttv/betterttvsafari.safariextz)  
+[Internet Explorer](http://www.nightdev.com/betterttv/betterttvie.exe)  
+[UserScript for GreaseMonkey / Tamper Monkey](http://www.nightdev.com/betterttv/betterttv.user.js)  
  
 <br>Once you have installed it navigate to a TwitchTV channel, Click the Cog And Click BetterTTV Settings.
 
@@ -58,7 +54,5 @@ Download it from the specific link for your browser
 <figure>
  <a href="/images/customization_guide/bttv_custom_settings.png"><img src="/images/customization_guide/bttv_custom_settings.png"></a>
 </figure>
-
-----
  
 Write up by [Gav](http://twitter.com/GavXD), Thanks to [NightDev](http://nightdev.com) for his amazing Add-on!
