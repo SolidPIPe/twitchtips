@@ -27,25 +27,13 @@
     
         
         <url>
-            <loc>http://twitchtips.com/get-started/</loc>
+            <loc>http://twitchtips.com/posts/</loc>
         </url>
         
     
         
         <url>
             <loc>http://twitchtips.com/feed.xml</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://twitchtips.com/about/</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://twitchtips.com/posts/</loc>
         </url>
         
     
@@ -58,6 +46,18 @@
         
         <url>
             <loc>http://twitchtips.com/404.html</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://twitchtips.com/about/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://twitchtips.com/get-started/</loc>
         </url>
         
     
