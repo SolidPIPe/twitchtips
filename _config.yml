@@ -10,7 +10,7 @@ exclude:
   - Gemfile.lock
   - changelog.md
   - "*.Rmd"
-#  - vendor
+  - vendor
   - .travis.yml
 
 title:            Twitch Tips
