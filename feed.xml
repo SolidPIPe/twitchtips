@@ -1,37 +1,644 @@
----
-layout: none
----
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-<title type="text">{{ site.title }}</title>
+<title type="text">Twitch Tips</title>
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="{{ site.url }}/feed.xml" />
-<link rel="alternate" type="text/html" href="{{ site.url }}" />
-<updated>{{ site.time | date_to_xmlschema }}</updated>
-<id>{{ site.url }}/</id>
+<link rel="self" type="application/atom+xml" href="http://twitchtips.com/feed.xml" />
+<link rel="alternate" type="text/html" href="http://twitchtips.com" />
+<updated>2014-05-01T04:00:37+01:00</updated>
+<id>http://twitchtips.com/</id>
 <author>
-  <name>{{ site.owner.name }}</name>
-  <uri>{{ site.url }}/</uri>
-  <email>{{ site.owner.email }}</email>
+  <name>Twitch Tips</name>
+  <uri>http://twitchtips.com/</uri>
+  <email>contact@twitchtips.com</email>
 </author>
-{% for post in site.posts limit:20 %}
-  {% unless post.draft %}
+
+  
+
+  
   <entry>
-    <title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
-    <link rel="alternate" type="text/html" href="{{ site.url }}{{ post.url }}" />
-    <id>{{ site.url }}{{ post.id }}</id>
-    {% if post.modified %}<updated>{{ post.modified | to_xmlschema }}T00:00:00-00:00</updated>
-    <published>{{ post.date | date_to_xmlschema }}</published>
-    {% else %}<published>{{ post.date | date_to_xmlschema }}</published>
-    <updated>{{ post.date | date_to_xmlschema }}</updated>{% endif %}
+    <title type="html"><![CDATA[Twitch Teams]]></title>
+    <link rel="alternate" type="text/html" href="http://twitchtips.com/twitch-teams/" />
+    <id>http://twitchtips.com/twitch-teams</id>
+    <published>2014-04-30T00:00:00+01:00</published>
+    <updated>2014-04-30T00:00:00+01:00</updated>
     <author>
-      <name>{{ site.owner.name }}</name>
-      <uri>{{ site.url }}</uri>
-      <email>{{ site.owner.email }}</email>
+      <name>Twitch Tips</name>
+      <uri>http://twitchtips.com</uri>
+      <email>contact@twitchtips.com</email>
     </author>
-    <content type="html">{{ post.content | xml_escape }}
-    &lt;p&gt;&lt;a href=&quot;{{ site.url }}{{ post.url }}&quot;&gt;{{ post.title }}&lt;/a&gt; was originally published by {{ site.owner.name }} at &lt;a href=&quot;{{ site.url }}&quot;&gt;{{ site.title }}&lt;/a&gt; on {{ post.date | date: "%B %d, %Y" }}.&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Twitch teams. That feeling of being a part of something special with your fellow broadcasters. &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;A sense of belonging sharing a common bond within the vast awesomeness of Twitch. But what purpose do they really serve and how can they help you as a streamer?&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;Let’s get started with the basics first though!&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-a-twitch-team&quot;&gt;What is a Twitch Team?&lt;/h2&gt;
+&lt;p&gt;A Twitch team is a grouping of streamers who voluntarily join upon being invited by a team maker. Typically these people have a common goal, mindset, game, or approach to streaming that binds them together under their team banner. &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;It’s a multi-way endorsement that says to Twitch viewers: these streams I approve of and they approve of me, so check them out!&lt;/p&gt;
+
+&lt;h2 id=&quot;what-does-a-twitch-team-look-like&quot;&gt;What does a Twitch Team look like?&lt;/h2&gt;
+&lt;p&gt;If someone is a part of at least one team, you’ll be able to see this under their stream title. Like so:&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/twitch-teams.png&quot;&gt;&lt;img src=&quot;/images/twitch-teams.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;who-can-make-a-team&quot;&gt;Who can make a team?&lt;/h2&gt;
+&lt;p&gt;Teams can only be created by a partnered streamer (no sub button required!). &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;The partner emails partnersupport in order to request a team. Once approved, the partner can then go to; &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Settings&lt;/li&gt;
+  &lt;li&gt;Click “Channels &amp;amp; Videos”&lt;/li&gt;
+  &lt;li&gt;Scroll down to “Teams”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Click “Edit” team (or just add your team url name to this: http://www.twitch.tv/team/YOURNAMEHERE/edit) and add members, manage the order in which members will appear, and add art to spiff the main-page up. &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;You can add a featured channel to this main-page, review the archives, as well as review stats and revenue for any team member that has enabled sharing these features.&lt;/p&gt;
+
+&lt;h2 id=&quot;are-there-any-minimum-or-maximum-for-members-on-a-team&quot;&gt;Are there any minimum or maximum for members on a team?&lt;/h2&gt;
+&lt;p&gt;Nope! You are free to have as exclusive or as populated of a team as you like.&lt;/p&gt;
+
+&lt;h2 id=&quot;is-there-a-limit-for-how-many-teams-someone-can-join&quot;&gt;Is there a limit for how many teams someone can join?&lt;/h2&gt;
+&lt;p&gt;Nope! Commit to a singular meaningful favorite or collect them like Pokémon.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-do-you-join-a-team&quot;&gt;How do you join a team?&lt;/h2&gt;
+&lt;p&gt;To join a team follow below instructions;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Go to your Settings&lt;/li&gt;
+  &lt;li&gt;Click “Channels &amp;amp; Videos”&lt;/li&gt;
+  &lt;li&gt;Scroll down to “Teams”&lt;/li&gt;
+  &lt;li&gt;Select “Accept” on an invite.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The three options you also have are to share your stats (partner only), your revenue (advertising, partner only), and to set a certain team - if you’re part of more than one - as your featured team under your stream title.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;The revenue option allows the team owner to see your revenue if you are a Twitch Partner. However, your revenue remains tied to your account only and is not shared with the team owner or the team in any other way.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-do-you-leave-a-team&quot;&gt;How do you leave a team?&lt;/h2&gt;
+&lt;p&gt;To leave a team follow below instructions;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Go to your Settings&lt;/li&gt;
+  &lt;li&gt;Click “Channels &amp;amp; Videos”&lt;/li&gt;
+  &lt;li&gt;Scroll down to “Teams”&lt;/li&gt;
+  &lt;li&gt;Select “Remove” for the team you wish to leave &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;(Note: read below for the social side of this action)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;would-you-like-to-know-more&quot;&gt;Would you like to know more?&lt;/h2&gt;
+&lt;p&gt;There are finer points of team dynamics as well. Read on if you need more on the social aspects of being in or running a team.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;what-benefits-can-being-in-a-team-really-provide&quot;&gt;What benefits can being in a team really provide?&lt;/h2&gt;
+&lt;p&gt;Some teams are not active in cross-promotion or pushing a particular brand. These sorts of teams are quite dormant for networking and therefore do not provide much benefit to the team members in terms of channel growth. &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;These sorts of teams might prefer to show an exclusive circle of friends or a collection of streamers under a network that are not tied together on any other aspect. Often though, to be in a team means you are there to promote your fellow team-mates as well as be promoted by them. &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;It’s a mutually beneficial sort of thing. I’d suggest you don’t expect much if you aren’t willing to pitch in. Remember, this micro-community only has as much value as you and your fellow team-mates place in it!&lt;/p&gt;
+
+&lt;h2 id=&quot;is-it-better-or-worse-to-be-on-more-than-one-team&quot;&gt;Is it better or worse to be on more than one team?&lt;/h2&gt;
+&lt;p&gt;From what I’ve seen, there are some people who stick to only one team and focus only on that. There are others who are in 3+ teams which all share roughly the same viewership; and in this sort of situation, most streamers in each team often play the same games. &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;Therefore, joining too many teams in the same game community is only cannibalizing your own cross-team exposure potential. At the same time, your channel shows up on more team pages and potentially brings more new eyes to your page. The choice is yours.&lt;/p&gt;
+
+&lt;h2 id=&quot;when-should-i-join-a-team&quot;&gt;When should I join a team?&lt;/h2&gt;
+&lt;p&gt;There is no certain ‘right time’ to join a team. It’s entirely up to when you feel comfortable. If you’re thinking you wish to try for a career as a streamer, then you might want to be more careful and take longer to consider your options than if you merely enjoy streaming as a hobby. &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;Ask yourself a few simple questions before committing: do you know all of the streamers on the team? Do you have any personal discomfort with any current members? Do you enjoy watching most of the members? Are these other channels the sort you’d proudly send your own viewers to? Being on a team means to your viewers that you approve of the channels under the same team name.&lt;/p&gt;
+
+&lt;h2 id=&quot;is-it-better-to-make-my-own-team-or-join-another&quot;&gt;Is it better to make my own team or join another?&lt;/h2&gt;
+&lt;p&gt;That depends on a few aspects of your channel and how much free time you have. &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;Managing a team doesn’t take THAT much extra work, but does take some, as you need to create and maintain relationships with the members you’ve invited (you should do this even if you’re just a member), help promote their streams and set an example for them (chances are they are all smaller than you if you’re the team creator), and of course, it’s best if you put effort into creating a logo and art for the main-page as well. &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;Art isn’t required, but if you want a professional team image, then you’ll prioritize getting branding done.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;But maybe you aren’t interested in doing all of that management or maybe you don’t feel it’s for you due to time requirements or whatever other reason. If that’s the case, then simply joining another team might be better for you. &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;Joining another team means you still ought to cross-promote and be considerate to your fellow team-mates, but there is far less work involved and less potential responsibility&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;Or - if neither of these options appeal to you - you can simply ‘lonewolf’ it on Twitch and avoid teams altogether! There are small and big streamers that do not have a team and are not part of someone else’s. The choice is yours. Networking is possible even without joining a team anyhow - so don’t feel obligated for the sake of your channel.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-do-i-do-if-i-want-to-leave-a-team-whats-the-most-professional-way-to-do-so&quot;&gt;What do I do if I want to leave a team? What’s the most professional way to do so?&lt;/h2&gt;
+&lt;p&gt;Remember that you are your brand on Twitch. Whatever manner you conduct yourself in might have an impact on your channel as a whole and might follow you for some time. &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;Clear and professional communication is best. I’d suggest messaging the team owner and leaving them a short and polite note that you appreciated your experience with the team but you feel it’s time to move on and you wish them the best. Easy peasy.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;This article was written by the wonderful Shannon (AKA: ShannonZKiller).&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I am the community manager/partner for a streamer named Sacriel, and am also a Twitch Admin. You can expect community related posts from me here from time to time. Have a suggestion or request for a topic you’d like to know more on? Put it in a comment below!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You can find Shannon at the following places around the web!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.twitter.com/ShannonZKiller&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.twitch.tv/ShannonZKiller&quot;&gt;Twitch&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/ShannonZKiller&quot;&gt;YouTube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.twitch.tv/team/the42nd&quot;&gt;42nd On Twitch&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.twitch.tv/Sacriel&quot;&gt;Sacriel&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://twitchtips.com/twitch-teams/&quot;&gt;Twitch Teams&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;http://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on April 30, 2014.&lt;/p&gt;</content>
   </entry>
-{% endunless %}
-{% endfor %}
+
+
+  
+  <entry>
+    <title type="html"><![CDATA[Deleting a Bookmark]]></title>
+    <link rel="alternate" type="text/html" href="http://twitchtips.com/bookmark/" />
+    <id>http://twitchtips.com/bookmark</id>
+    <published>2014-04-28T00:00:00+01:00</published>
+    <updated>2014-04-28T00:00:00+01:00</updated>
+    <author>
+      <name>Twitch Tips</name>
+      <uri>http://twitchtips.com</uri>
+      <email>contact@twitchtips.com</email>
+    </author>
+    <content type="html">&lt;p&gt;Bookmarked a stream? Here’s how you can delete that bookmark!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;Firstly you’re going to want to go to http://www.twitch.tv/{username}/dashboard/recorded?kind=bookmarks &lt;strong&gt;(replace {username} with your actual Twitch username)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;After you’ve opened your bookmarks tab you’re going to want to open the developer console (CRTL + SHIFT + J). Once opened either type or copy and paste the following line and press enter.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;$(&quot;.owner-only&quot;).show();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;br /&gt;After doing so you will see a “Delete” button near every Bookmark till you reload the page.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;Thanks to &lt;a href=&quot;https://twitter.com/commanderroot&quot;&gt;Root&lt;/a&gt; for this write-up.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://twitchtips.com/bookmark/&quot;&gt;Deleting a Bookmark&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;http://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on April 28, 2014.&lt;/p&gt;</content>
+  </entry>
+
+
+  
+  <entry>
+    <title type="html"><![CDATA[Justinfan Issue]]></title>
+    <link rel="alternate" type="text/html" href="http://twitchtips.com/justinfan/" />
+    <id>http://twitchtips.com/justinfan</id>
+    <published>2014-04-27T00:00:00+01:00</published>
+    <updated>2014-04-27T00:00:00+01:00</updated>
+    <author>
+      <name>Twitch Tips</name>
+      <uri>http://twitchtips.com</uri>
+      <email>contact@twitchtips.com</email>
+    </author>
+    <content type="html">&lt;p&gt;Is your name showing up as Justinfan followed by random numbers in chat, here’s how to fix it!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;You may occasionally see your name displayed as “Justinfan” temporarily if there was an issue loading all required data when attempting to view a stream. &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;strong&gt;A simple page refresh will correct this issue 98% of the time&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;“Justinfan” accounts are special accounts that users not logged in to Twitch will use to connect to the chat servers and view chat. They cannot talk so any messages you send as one will not be seen by anyone.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;Thanks to &lt;a href=&quot;https://twitter.com/bgeorge&quot;&gt;George&lt;/a&gt; for this write-up.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://twitchtips.com/justinfan/&quot;&gt;Justinfan Issue&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;http://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on April 27, 2014.&lt;/p&gt;</content>
+  </entry>
+
+
+  
+  <entry>
+    <title type="html"><![CDATA[XSplit Setup]]></title>
+    <link rel="alternate" type="text/html" href="http://twitchtips.com/xsplit-setup/" />
+    <id>http://twitchtips.com/xsplit-setup</id>
+    <published>2014-04-18T00:00:00+01:00</published>
+    <updated>2014-04-18T00:00:00+01:00</updated>
+    <author>
+      <name>Twitch Tips</name>
+      <uri>http://twitchtips.com</uri>
+      <email>contact@twitchtips.com</email>
+    </author>
+    <content type="html">&lt;p&gt;XSplit Broadcaster is one of the most popular broadcasting programs on Twitch and comes highly recommended. XSplit Broadcaster is considered an all-in-one solution as it allows the broadcaster to edit their stream with multiple camera shots, graphical overlays, chroma key, and picture-in-picture effects, as well as encoding the video feed with highly flexible range of quality options.&lt;br /&gt;
+&lt;br /&gt;
+(NOTE: Not to be confused with XSplit Gamecaster)&lt;/p&gt;
+
+&lt;h2 id=&quot;key-features&quot;&gt;Key Features&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Easy setup: Login with your Twitch account and let the built-in wizard setup your optimum stream settings. You will be live on Twitch in less than 5 minutes.&lt;/li&gt;
+  &lt;li&gt;Use multiple scenes: Add and edit multiple video sources such as desktop screen capture, gamesource capture, titles, webcams, capture cards and much more.&lt;/li&gt;
+  &lt;li&gt;Simple Audio Mixer: Capture computer and microphone audio simultaneously. Audio sources can be delayed to match capture card latency.&lt;/li&gt;
+  &lt;li&gt;Twitch Ingest Point Tester: Always find the best location on the Twitch network to broadcast to wherever you are.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;download-xsplit&quot;&gt;Download XSplit&lt;/h2&gt;
+
+&lt;p&gt;Click &lt;a href=&quot;http://www.xsplit.com/twitchtv/SignUp&quot;&gt;here to create a free XSplit account&lt;/a&gt; and download the XSplit software.&lt;br /&gt;
+&lt;br /&gt;
+XSplit comes in a variety of Free, Personal and Premium versions, each with its own advantages. Please refer to the XSplit site for up-to-date information on its current status.&lt;/p&gt;
+
+&lt;h2 id=&quot;getting-started-with-xsplit&quot;&gt;Getting Started with XSplit&lt;/h2&gt;
+&lt;p&gt;After finishing this guide, there’s more information available in the XSplit Beginner’s Guide on YouTube.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-1-adding-sources&quot;&gt;Step 1) Adding Sources&lt;/h3&gt;
+&lt;p&gt;For PC games, you have two choices on how to capture your gameplay. Either by capturing the screen region, or by achieving a direct feed via game source (only available in XSplit Personal and Premium).&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;The screenshot below details where you can find the dropdown menu to add sources;  &lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/xsplit_guide/settings.png&quot;&gt;&lt;img src=&quot;/images/xsplit_guide/sources.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;screen-region-method&quot;&gt;Screen Region Method&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Go to Add &amp;gt; Add Screen Region.&lt;/li&gt;
+  &lt;li&gt;Select the region of your desktop you’d like XSplit to capture by left clicking somewhere in the game window. You can also click the desktop or task bar to select the entire monitor.&lt;/li&gt;
+  &lt;li&gt;The selected area appears in your XSplit window for further editing.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;game-source-method-requires-xsplit-personal-or-premium&quot;&gt;Game Source Method (Requires XSplit Personal or Premium)&lt;/h4&gt;
+
+&lt;p&gt;Games that utilize the DirectX or OpenGL platform can be enabled for direct capture, or Game Source. This sometimes results in better performance when compared to the screen region method and supports games in fullscreen mode.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Go to Add &amp;gt; Add Game and select the .exe of the game you’d like to capture.&lt;/li&gt;
+  &lt;li&gt;The selected game appears in your XSplit window for further editing.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;capture-device-xbox-playstation-3-webcam-etc&quot;&gt;Capture Device (Xbox, PlayStation 3, Webcam, etc)&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Go to Add &amp;gt; Add Camera.&lt;/li&gt;
+  &lt;li&gt;Select either the capture device or webcam you’d like to use.&lt;/li&gt;
+  &lt;li&gt;The selected device appears in your XSplit window for further editing.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;step-2-understanding-xsplit-audio&quot;&gt;Step 2) Understanding XSplit Audio&lt;/h3&gt;
+
+&lt;h4 id=&quot;xsplit-accepts-two-audio-sources-simultaneously&quot;&gt;XSplit accepts two audio sources simultaneously.&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Windows 7 default playback device (desktop audio) essentially what comes out of the default speaker&lt;/li&gt;
+  &lt;li&gt;The currently selected microphone in the XSplit user settings under Tools &amp;gt; General Settings &amp;gt; General Tab &amp;gt; Audio&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;volume-control&quot;&gt;Volume Control&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Each audio source has its own volume that you can manually adjust - right-click the source and use the properties provided&lt;/li&gt;
+  &lt;li&gt;Sources that tend to have audio settings include webcams, capture cards, video files, etc&lt;/li&gt;
+  &lt;li&gt;Using the Windows Audio Mixer, typically located at the bottom-right hand corner of your Windows taskbar, you can adjust the volumes of these devices individually&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Note: All audio sources added in XSplit rely on your Windows 7 Default Device for audio to your stream. In other words, if you can hear it over your speakers, your audience will too.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-3-selecting-quality-options-and-broadcasting&quot;&gt;Step 3) Selecting Quality Options and Broadcasting&lt;/h3&gt;
+
+&lt;h4 id=&quot;basic-broadcast-settings&quot;&gt;Basic Broadcast Settings&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Go to Broadcast and click the right side gear symbol for your Twitch channel.&lt;/li&gt;
+  &lt;li&gt;Click the Wizard button in the lower left corner and follow the two steps. When it’s done probing your internet speed and computer hardware, click Finish to use the recommended settings.&lt;/li&gt;
+  &lt;li&gt;Optional: View &amp;gt; Scale Viewport &amp;gt; 50.&lt;/li&gt;
+  &lt;li&gt;Feel free to adjust the wizard settings based upon your own personal preferences and experience broadcasting to Twitch. You can also seek out tips in the XSplit community forum.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;step-4-go-live-and-interact-with-your-audience&quot;&gt;Step 4) Go live and interact with your audience!&lt;/h3&gt;
+
+&lt;h4 id=&quot;connecting-to-twitch&quot;&gt;Connecting to Twitch&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Go to Broadcast &amp;gt; Twitch Username.&lt;/li&gt;
+  &lt;li&gt;Open your web browser and go to &lt;a href=&quot;http://twitch.tv/broadcast/dashboard&quot;&gt;http://twitch.tv/broadcast/dashboard&lt;/a&gt; to view both your channel and your chat window.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;This post is a modified and re-designed version of Xangold’s original post on the official Twitch Helpdesk.	
+&lt;br /&gt;&lt;br /&gt;Thanks to him for putting so much effort into the original!	&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.twitter.com/xangold&quot;&gt;Xangold&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://help.twitch.tv/customer/portal/articles/733542-xsplit&quot;&gt;Original Post&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;Also thanks to fellow &lt;a href=&quot;http://www.twitch.tv/pipe&quot;&gt;Twitch Admin PIPe&lt;/a&gt; for sending me over a screenshot to demonstrate .. sources.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://twitchtips.com/xsplit-setup/&quot;&gt;XSplit Setup&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;http://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on April 18, 2014.&lt;/p&gt;</content>
+  </entry>
+
+
+  
+  <entry>
+    <title type="html"><![CDATA[OBS Setup]]></title>
+    <link rel="alternate" type="text/html" href="http://twitchtips.com/obs-setup/" />
+    <id>http://twitchtips.com/obs-setup</id>
+    <published>2014-04-18T00:00:00+01:00</published>
+    <updated>2014-04-18T00:00:00+01:00</updated>
+    <author>
+      <name>Twitch Tips</name>
+      <uri>http://twitchtips.com</uri>
+      <email>contact@twitchtips.com</email>
+    </author>
+    <content type="html">&lt;h2 id=&quot;getting-started&quot;&gt;Getting Started&lt;/h2&gt;
+&lt;p&gt;After downloading OBS, navigate to your settings by clicking Settings &amp;gt; Settings. A screenshot demonstrating this is below:&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/obs_guide/settings.png&quot;&gt;&lt;img src=&quot;/images/obs_guide/settings.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;general-settings&quot;&gt;General Settings&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Select your language, and set a profile name.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/obs_guide/general.png&quot;&gt;&lt;img src=&quot;/images/obs_guide/general.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;encoding&quot;&gt;Encoding&lt;/h3&gt;
+
+&lt;h4 id=&quot;video-encoding&quot;&gt;Video Encoding&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Check “Use CBR”&lt;/li&gt;
+  &lt;li&gt;Check “Enable CBR padding”&lt;/li&gt;
+  &lt;li&gt;Max bitrate should be 3300 or 80% of your upload throughput, whichever is lower. Recommended bitrates for different resolutions are listed below.&lt;/li&gt;
+  &lt;li&gt;Buffer Size is recommended to be equal to the max bitrate. Setting this lower will have the encoder closer to the targeted bitrate. We do not recommend changing this unless you know what you are doing. &lt;br /&gt;&lt;br /&gt; 
+​Recommended bitrate for 1080p: 3000-3500&lt;br /&gt;
+Recommended bitrate for 720p: 1800-2500&lt;br /&gt;
+Recommended bitrate for 480p: 900-1200&lt;br /&gt;
+Recommended bitrate for 360p: 600-800&lt;br /&gt;
+Recommended bitrate for 240p: Up to 500  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;audio-encoding&quot;&gt;Audio Encoding&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;We recommend AAC with a bitrate of 64-128, although this is up to personal preference and bandwidth constraints&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Your encoding tab should now look a little something like below;&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/obs_guide/encoding.png&quot;&gt;&lt;img src=&quot;/images/obs_guide/encoding.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;broadcast-settings&quot;&gt;Broadcast Settings&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Mode: Live stream&lt;/li&gt;
+  &lt;li&gt;Streaming Service: Twitch/Justin.tv&lt;/li&gt;
+  &lt;li&gt;Server: Closest geographical server.
+If you are having issues with dropped frames, and you are sure your throughput and CPU are sufficient, try changing this.&lt;/li&gt;
+  &lt;li&gt;Play Path/Stream Key: Go to your Dashboard and click the “Stream Key” tab. From here you can show your key by clicking said button. (&lt;strong&gt;Caution:&lt;/strong&gt; Do not show your stream key publicly).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/obs_guide/stream_key.png&quot;&gt;&lt;img src=&quot;/images/obs_guide/stream_key.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Autoreconnect: Recommended checked.&lt;/li&gt;
+  &lt;li&gt;Auto-Reconnect Timeout: 10 seconds&lt;/li&gt;
+  &lt;li&gt;Delay: 0, but if you need delay set locally you can do this to prevent “ghosting.” We do NOT recommend delay.&lt;/li&gt;
+  &lt;li&gt;Minimize Network Impact: Unchecked. If you are an advanced user, or are having issues with your network settings, use this setting.&lt;/li&gt;
+  &lt;li&gt;Dashboard Link: http://www.twitch.tv/dashboard or blank.&lt;/li&gt;
+  &lt;li&gt;Save to file: We HIGHLY recommend you keep local recordings on your computer as we make changes to our VOD storage, to ensure you always have easy access to your broadcasts.&lt;/li&gt;
+  &lt;li&gt;Keep recording if live stream stops: Again, HIGHLY recommended you keep this enabled just in case you get disconnected, you’ll have a local recording to share later on&lt;/li&gt;
+  &lt;li&gt;File Path: Select a file path for where you want to save your local files. Not needed if you do not save a local file.&lt;/li&gt;
+  &lt;li&gt;Start Stream Hotkey: Custom key to start stream with.&lt;/li&gt;
+  &lt;li&gt;Stop Stream Hotkey: Custom key to stop stream with. &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;An example of what this would look like is below:&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/obs_guide/broadcast.png&quot;&gt;&lt;img src=&quot;/images/obs_guide/broadcast.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;video-settings&quot;&gt;Video Settings&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Video Adapter should be set by default. If you have more than one, select the adapter you are playing your game on.&lt;/li&gt;
+  &lt;li&gt;Base resolution typically is your monitors resolution. You can alternatively select a monitor to default this.&lt;/li&gt;
+  &lt;li&gt;Resolution Downscale is the resolution that you send our servers. Lower resolutions will consume less bandwidth overall, and use much less processing power. (&lt;strong&gt;Note:&lt;/strong&gt; Refer back to the encoding section to get the bitrate for a downscaled resolution)&lt;/li&gt;
+  &lt;li&gt;Filter should be “Bilinear” unless you have issues with blurring in your downscaling. Bicubic and Lanczos are both supported, but will take additional processing.&lt;/li&gt;
+  &lt;li&gt;FPS is recommended to be 30. Note that 720p at 60 frames per second for some games will look better than low bitrate 1080p at 30 FPS.&lt;/li&gt;
+  &lt;li&gt;Aero is recommended to be disabled only if you are using monitor or screen capture. (Do not turn off Aero if you are using layered windows, window capture, or game capture. Windows 8 cannot disable aero)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/obs_guide/video.png&quot;&gt;&lt;img src=&quot;/images/obs_guide/video.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;audio-settings&quot;&gt;Audio Settings&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Desktop Audio Device: We recommend that this be set to your “Default” playback device. To change this, right click on your volume slider, then click playback devices. Then, right click on the audio device you’d like to make default and select “Set as Default Device.” Two images will show that process below:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+    &lt;a href=&quot;/images/obs_guide/audio-one.png&quot;&gt;&lt;img src=&quot;/images/obs_guide/audio-one.png&quot; /&gt;&lt;/a&gt;
+    &lt;a href=&quot;/images/obs_guide/audio-two.png&quot;&gt;&lt;img src=&quot;/images/obs_guide/audio-two.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Microphone/Auxiliary device: Set this to your headset or microphone if you have one.&lt;/li&gt;
+  &lt;li&gt;Use Push to talk: Set this if you want push to talk set to a custom key.&lt;/li&gt;
+  &lt;li&gt;Push to talk delay: Time after key is released and OBS is still recording your mic.&lt;/li&gt;
+  &lt;li&gt;Mute/Unmute mic hotkey: User preferred hotkey to toggle mute settings for the Microphone/Auxiliary device.&lt;/li&gt;
+  &lt;li&gt;Mute/Unmute Desktop Hotkey: User preferred hotkey to toggle mute settings for the Desktop Audio Device.&lt;/li&gt;
+  &lt;li&gt;Force Microphone/Auxiliary to Mono: If you want this to only use one channel. We do not recommend this.&lt;/li&gt;
+  &lt;li&gt;Desktop Boost (multiple): Force OBS to boost your desktop audio. 1 is “100%”&lt;/li&gt;
+  &lt;li&gt;Mic/Aux Boost (multiple): Force OBS to boost your microphone audio. 1 is “100%”&lt;/li&gt;
+  &lt;li&gt;Mic Time Offset (ms): Default 0. Use this if you have sync issues. &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;An example of this page filled out is below:&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/obs_guide/audio.png&quot;&gt;&lt;img src=&quot;/images/obs_guide/audio.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;advanced&quot;&gt;Advanced&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Use multithreaded Optimizations: Checked&lt;/li&gt;
+  &lt;li&gt;Process Priority Class: Normal. Changing this higher will make OBS get CPU before other programs and can cause lag on many systems.
+Scene Buffering Time (ms): 400&lt;/li&gt;
+  &lt;li&gt;Disable encoding while previewing: Unchecked unless you have lag while previewing your stream.&lt;/li&gt;
+  &lt;li&gt;Allow other modifiers on hotkeys: Checked Video&lt;/li&gt;
+  &lt;li&gt;x264 CPU Preset: This will set the encoding level. We recommend “veryfast” unless you have no bandwidth and beastly computer. Then, set it to be slower. Warning: setting your stream to a lower setting when at a high resolution is very CPU intensive.&lt;/li&gt;
+  &lt;li&gt;x264 Encoding profile: This setting changes what profile you record on. Some devices (notably tablets and phones) may have issues with decoding streams with “high” profiles, so we recommend main if you want to have the highest compatibility at the sacrifice of some quality.&lt;/li&gt;
+  &lt;li&gt;Use CFR: Checked [newer versions may not need this!]&lt;/li&gt;
+  &lt;li&gt;Custom x264 Encoder Settings: Default (blank)&lt;/li&gt;
+  &lt;li&gt;Keyframe Interval: Set this to 2&lt;/li&gt;
+  &lt;li&gt;Allow 61-120 FPS entry in video settings: Unchecked. We don’t recommend users going above 60FPS for any game.&lt;/li&gt;
+  &lt;li&gt;Use Quicksync: If you have certain Intel processors (Sandy Bridge/Ivy Bridge), you can use this alternative method of encoding to use less CPU (it will use the hardware video encoder on your integrated GPU). There are quality differences due to the change of encoding. This nullifies x264 presets, but you can set the custom encoding settings if you want by checking “use custom x264 settigns for Quick Sync”&lt;/li&gt;
+  &lt;li&gt;Use Nvidia NVENC: Similar to quicksync, this uses an alternative encoding method, with quality differences (usually lower at the same bitrate) due to the change of encoding. There are several presets you can choose from with this using the NVENC Preset dropdown.&lt;/li&gt;
+  &lt;li&gt;Sub-options of Use Quick Sync and Use custom x264 settings for QSV should remain unchecked.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;audio&quot;&gt;Audio&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Force desktop audio to use timestamps as a base for audio time: Check this if you are having problems with syncing only.&lt;/li&gt;
+  &lt;li&gt;Global audio Time Offset (ms): Set this to the number of ms you’d like to offset this to. We recommend 0 unless having issues with sync.&lt;/li&gt;
+  &lt;li&gt;Use Mic QPC timestamps: Use this only if having sync issues.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;network&quot;&gt;Network&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Bind to Interface: Default. You can select another network adapter here if you need to.&lt;/li&gt;
+  &lt;li&gt;Automatic low latency mode: Check this only if you’ve talked to a OBS developer or Twitch staff as very few users would need this.&lt;/li&gt;
+  &lt;li&gt;Latency tuning factor: Set this only if you’ve talked to a OBS developer or Twitch staff as very few users would need this. ​An example of what this would look like for a user is below:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/obs_guide/advanced.png&quot;&gt;&lt;img src=&quot;/images/obs_guide/advanced.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;microphone-noise-gate&quot;&gt;Microphone Noise Gate&lt;/h3&gt;
+
+&lt;p&gt;This setting allows users to set an automatic threshold for their mic being turned on and off. You can select the decibel level of the Close and Open thresholds here.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Attack Time: This is the time it takes for your mic to “spin up” to reach hold to output. You generally do not modify this.&lt;/li&gt;
+  &lt;li&gt;Hold time(ms) how long the gate will stay open after it falls below threshold. You generally do not modify this.&lt;/li&gt;
+  &lt;li&gt;Release time: Inverse of attack time. You generally do not modify this. &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Our recommended “off” settings are found below:&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/obs_guide/noise-gate.png&quot;&gt;&lt;img src=&quot;/images/obs_guide/noise-gate.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;This about sums it up for the broadcaster technical settings, time to have a break, get a cup of coffee and we’ll have another post up soon with the source and scenes side of OBS (the fun stuff).	&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;This post is a modified and re-designed version of Xangold’s original post on the official Twitch Helpdesk.	
+&lt;br /&gt;&lt;br /&gt;Thanks to him for putting so much effort into the original!	&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.twitter.com/xangold&quot;&gt;Xangold&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://help.twitch.tv/customer/portal/articles/1262922-open-broadcaster-software&quot;&gt;Original Post&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://twitchtips.com/obs-setup/&quot;&gt;OBS Setup&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;http://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on April 18, 2014.&lt;/p&gt;</content>
+  </entry>
+
+
+  
+  <entry>
+    <title type="html"><![CDATA[Grey Screen Issue]]></title>
+    <link rel="alternate" type="text/html" href="http://twitchtips.com/grey-screen/" />
+    <id>http://twitchtips.com/grey-screen</id>
+    <published>2014-04-17T00:00:00+01:00</published>
+    <updated>2014-04-17T00:00:00+01:00</updated>
+    <author>
+      <name>Twitch Tips</name>
+      <uri>http://twitchtips.com</uri>
+      <email>contact@twitchtips.com</email>
+    </author>
+    <content type="html">&lt;p&gt;Got the issue where you can only see a grey screen with the Twitch logo centered in the middle? Well, here’s how to fix that issue!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;The reason(s) you may be getting this issue is due to one of the following;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Javascript being disabled&lt;/li&gt;
+  &lt;li&gt;Extension causing javascript errors&lt;/li&gt;
+  &lt;li&gt;Firewall and / or Security software blocking JS execution&lt;/li&gt;
+  &lt;li&gt;Malware&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Let’s start with the simple stuff, depending on the browser you’re using follow the relevant instructions below:&lt;/p&gt;
+
+&lt;h2 id=&quot;disabled-javascript&quot;&gt;Disabled Javascript&lt;/h2&gt;
+
+&lt;h3 id=&quot;google-chrome&quot;&gt;Google Chrome&lt;/h3&gt;
+&lt;p&gt;Go to: Settings &amp;gt; Privacy &amp;gt; Content settings &amp;gt; Javascript&lt;br /&gt;
+&lt;br /&gt;From here make sure “Allow all sites to run JavaScript” is selected&lt;br /&gt;
+&lt;br /&gt;Once you’re sure, click “Done”  &lt;/p&gt;
+
+&lt;h3 id=&quot;mozilla-firefox&quot;&gt;Mozilla Firefox&lt;/h3&gt;
+&lt;p&gt;In the URL / Address bar type: about:config and proceed to press enter &lt;br /&gt;
+&lt;br /&gt;You may see a “warranty” screen, simply click the button saying “I’ll be careful, I promise!”&lt;br /&gt;
+&lt;br /&gt;Once you’re in, type “javascript.enabled” into the search bar below the URL bar &lt;br /&gt;
+&lt;br /&gt;Once you see the “javascript.enabled” preference, make sure the assigned value is “true” and not “false”. If it’s false simply right click and hit the “toggle option”. &lt;/p&gt;
+
+&lt;h2 id=&quot;extensions&quot;&gt;Extensions&lt;/h2&gt;
+&lt;p&gt;Once you’ve made sure JavaScript is enabled on your browser and you’re still getting the grey screen, its time to check extensions!&lt;br /&gt;
+&lt;br /&gt;Firstly, lets test something - in your browser open up an incognito window (don’t lie, you know what that is) and try loading Twitch. Do you still get the same error?&lt;br /&gt;
+&lt;br /&gt;If so your problem isn’t likely to be an extension (make sure by checking extensions the browser allows to run in incognito mode - if you see no active extensions in incognito move down to the next section).&lt;br /&gt;
+&lt;br /&gt;If you did manage to load Twitch successfully then your perpetrator is likely an extension, go to your extension listings and make sure to disable all extensions.&lt;br /&gt;
+&lt;br /&gt;Now try to load Twitch again, if it works you can begin to enable extensions one by one until you find the one that is causing the issue and remove it from your installed extensions.&lt;br /&gt;
+&lt;br /&gt;&lt;strong&gt;Still not working, lets move onto anti-virus / security software potentially blocking JS from being executed etc&lt;/strong&gt;  &lt;/p&gt;
+
+&lt;h2 id=&quot;anti-virus--security-software&quot;&gt;Anti-Virus / Security Software&lt;/h2&gt;
+
+&lt;p&gt;There’s hundreds of anti-virus and security software programs out there so it’s practically impossible for me to list every single one with detailed instructions on what to do.&lt;br /&gt;
+&lt;br /&gt;Simply, you’re looking for browser, network or web protection that allows you to configure the level of security the software will attempt to abide by.&lt;br /&gt;
+&lt;br /&gt;If you can, try to disable any firewall or web protection for a couple of minutes and try loading Twitch, still getting the issue? If not then you’re perpetrator is somewhere within those security settings, fiddle around and let us know how you fixed it so we can keep others up to date!  &lt;/p&gt;
+
+&lt;h2 id=&quot;malware&quot;&gt;Malware&lt;/h2&gt;
+
+&lt;p&gt;The part we all didn’t want to get to; Malware can be very annoying, sophisticated and a general pain in the ass to deal with. However, we have some wonderful tools available to us!&lt;br /&gt;
+&lt;br /&gt;My advice is to install AdwCleaner and Malwarebytes and scan for any malware / adware or general horribleness lurking on your PC.&lt;br /&gt;
+&lt;br /&gt;Below are links to said tools, please let us know in the comments if you do manage to find anything so we can keep others up to date!  &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.malwarebytes.org/&quot;&gt;MalwareBytes - Free Anti-Malware &amp;amp; Internet Security Software&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bleepingcomputer.com/download/adwcleaner/&quot;&gt;[Bleeping Computer] AdwCleaner&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Hopefully you managed to get the problem dealt with using this blog post, if not - keep trying. You may of just missed something simple. Let us know how you get on in the comments.   &lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://twitchtips.com/grey-screen/&quot;&gt;Grey Screen Issue&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;http://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on April 17, 2014.&lt;/p&gt;</content>
+  </entry>
+
+
+  
+  <entry>
+    <title type="html"><![CDATA[Donation panels (Paypal)]]></title>
+    <link rel="alternate" type="text/html" href="http://twitchtips.com/donation-panels-paypal/" />
+    <id>http://twitchtips.com/donation-panels-paypal</id>
+    <published>2014-04-14T00:00:00+01:00</published>
+    <updated>2014-04-14T00:00:00+01:00</updated>
+    <author>
+      <name>Twitch Tips</name>
+      <uri>http://twitchtips.com</uri>
+      <email>contact@twitchtips.com</email>
+    </author>
+    <content type="html">&lt;p&gt;People seem to always ask how to set up a donation button / panel on their channel for Twitch. The most confusing part for most is setting up the donation “button”.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;This tutorial will go through the entire process from logging into PayPal to getting your donation panel set up. What you need in order to follow this tutorial is as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;PayPal Account (make one if you haven’t got one)&lt;/li&gt;
+  &lt;li&gt;Pre-made donation button / image for the panels (max width &amp;amp; height is 320px * 320px) Firstly we’re going to need to log in to &lt;a href=&quot;http://paypal.com&quot;&gt;Paypal&lt;/a&gt;. Once logged in direct yourself to the “Profile” drop-down and click on “My Selling Preferences”.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;From here under “Selling online” you’ll see the option “PayPal Buttons”. To the right you’ll either see “Get started” or “Update”. Click this link and you’ll be taken to the page where you can create a new “button”.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;If you haven’t already created a PayPal button you’ll be taken straight to the button creation process, however if you already have an existing button you’ll be shown a list of all your currently active buttons. To being the creation process click the “Create new button” link to the right of the listed buttons already there.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;Now that we’re onto the button creation process be sure to choose “Donations” from the button type drop-down. Give your self an “Organization name / service” (i.e. your Twitch channel name or what-not) and then scroll down to the currency drop-down. Here you can select your native currency if you so wish to (USD, GBP etc).&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;There are more options you can modify which I won’t go into on this post but may do in the future. Feel free to take your time and customize your donation button / process as much as you’d like to. &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;Once you’re done fiddling with the settings and what-not, click the “Save changes” button at the bottom and you’ll be taken to a page that gives you the website embed code and the direct email url. We want the e-mail one so click on the e-mail tab. Inside the text-box will be a link, this link is what we’ll link to an image on our Twitch channel so that people can click on the image and be taken to the PayPal checkout page so that they can donate to you.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;From here go to your Twitch channel (i.e. twitch.tv/yourname), scroll down and look for the “edit panels” toggle and the click “on” option. Now you can add a new panel or modify an existing panel if you so wish, simply click the “Add image” button, select your pre-made or pre-gathered donation button / image and then put the url you got from the e-mail tab in PayPal in the “Image links to” field.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;Give your panel a name such as “tip jar”, “donations” or whatever you want to call it, submit the panel and you’re done!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;If this was hard for you to follow then feel free to check out the tutorial video I made on YouTube a while back that goes through this exact process, some might find it a lot easier to follow! &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;Please take note: PayPal’s “donation” button is designed for non-profit organizations. If you raise over $10,000 they will require proof you’re a non-profit organization. (Thank you to &lt;a href=&quot;http://twitter.com/joehills&quot;&gt;@joehills&lt;/a&gt; for pointing this out)&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://twitchtips.com/donation-panels-paypal/&quot;&gt;Donation panels (Paypal)&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;http://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on April 14, 2014.&lt;/p&gt;</content>
+  </entry>
+
+
 </feed>
