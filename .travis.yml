@@ -11,8 +11,8 @@ notifications:
     on_failure: always
 env:
   global:
-    - secure: "oJcj3ZD4+xDuFKX5VBmpDyF8rq5b6GboNoZ/UZZsvxBBEyupcZuW5qIpAYs3PQQKP8+7Lr+IHYjq/0H7naKX3wzbMF9U62l4MukGjSojqbDFd3cokk+ds4dLTl00qgUXnNsl69Kd26qTtqyJoGdgv4QPYxM7f+Lgpjpix1NJi/I="
-    - secure: "Vjy7bSJdqIyM1u5b7tKmXD567jXnuMH5OhtrT9zHoq9cpEuU7THOANGjbeF2ihYXeesibpg7SA2Nn+5UDM9PTXpBLJ7sSZvkbOZrUEhPJB9VY4q8z9hcaHkzkUywiWr7/doG60Ycp5EfSzNpGNeBJoMs6uopmYU86Evxc9jPgUg="
+    - secure: "gXudmhUT0J7/Ssld9T+soehqiX8gZNKVd+7A7/FCGhqZo9SCCvVq623TsxHdz39x7tnEwjeomDEdYH/jKBnSoNmUMvsxF6rBQy4CRtsNyNCEDvT51fZnxdY5N56K+BXP8xJZO1rS/23a21CQpf6snFlw30deRY7UCyoOzywfwWY="
+    - secure: "EDefTCL/EaocZP8QHEPaC8+LPgf+uszTKgI76PoPGQ0F+PHt2DxV6S0ttoei/iOqolQWET1jWjAdT6g7IwBLeGAX+W3wG/ulj/4yeEImIFUqnYJR8QlFrJ8DuvRD9RfaTtt9hByOpVO7/XlgRjhaW0y2/VgJ7lHdfw6VtTrEcdU="
 # Generate your secure token with the travis gem:
 # get Github token from your Travis CI profile page
 # gem install travis
