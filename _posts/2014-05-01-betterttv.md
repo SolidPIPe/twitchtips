@@ -40,13 +40,12 @@ BetterTTV Enhances Twitch with new features, bug fixes, and reduced clutter.
 ----
  
 Download it from the specific link for your browser
- 
-<br><a href="https://chrome.google.com/webstore/detail/betterttv/ajopnjidmegmdimjlfnijceegpefgped?hl=en">Chrome</a>
-<br><a href="http://www.nightdev.com/betterttv/betterttvfirefox.xpi">Firefox</a>
-<br><a href="http://www.nightdev.com/betterttv/betterttvopera.nex">Opera</a>
-<br><a href="http://www.nightdev.com/betterttv/betterttvsafari.safariextz">Safari</a>
-<br><a href="http://www.nightdev.com/betterttv/betterttvie.exe">Internet Explorer</a>
-<br><a href="http://www.nightdev.com/betterttv/betterttv.user.js">UserScript for GreaseMonkey / Tamper Monkey</a>
+<br>[Chrome](https://chrome.google.com/webstore/detail/betterttv/ajopnjidmegmdimjlfnijceegpefgped?hl=en)
+<br>[Firefox](http://www.nightdev.com/betterttv/betterttvfirefox.xpi)
+<br>[Opera](http://www.nightdev.com/betterttv/betterttvopera.nex)
+<br>[Safari](http://www.nightdev.com/betterttv/betterttvsafari.safariextz)
+<br>[Internet Explorer](http://www.nightdev.com/betterttv/betterttvie.exe)
+<br>[UserScript for GreaseMonkey / Tamper Monkey](http://www.nightdev.com/betterttv/betterttv.user.js)
  
 <br>Once you have installed it navigate to a TwitchTV channel, Click the Cog And Click BetterTTV Settings.
 
@@ -62,4 +61,4 @@ Download it from the specific link for your browser
 
 ----
  
-Write up by <a href="http://twitter.com/GavXD">Gav</a>, Thanks to <a href="http://nightdev.com/">NightDev</a> for his amazing Add-on!
+Write up by [Gav](http://twitter.com/GavXD), Thanks to [NightDev](http://nightdev.com) for his amazing Add-on!
