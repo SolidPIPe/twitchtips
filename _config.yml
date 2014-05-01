@@ -4,6 +4,13 @@ description:      Describe your website.
 url:              http://twitchtips.com
 disqus_shortname: twitchtips
 
+username: TwitchTips
+repo: twitchtips
+branch: master
+
+lunr_search:
+  excludes: [sitemap.xml,feed.xml]
+
 # Owner/author information
 owner:
   name:           Twitch Tips

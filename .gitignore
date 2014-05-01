@@ -5,3 +5,26 @@ _site
 codekit-config.json
 node_modules
 _asset_bundler_cache
+
+*.gem
+*.rbc
+.bundle
+.config
+coverage
+InstalledFiles
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+vendor
+_site
+
+# YARD artifacts
+.yardoc
+_yardoc
+doc/
+
+config.codekit

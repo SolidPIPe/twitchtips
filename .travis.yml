@@ -1,0 +1,19 @@
+language: ruby
+cache: bundler
+
+script: bundle exec rake site:deploy
+
+notifications:
+  email:
+    recipients:
+      - david@dmarby.se
+    on_success: change
+    on_failure: always
+env:
+  global:
+    - secure: "oJcj3ZD4+xDuFKX5VBmpDyF8rq5b6GboNoZ/UZZsvxBBEyupcZuW5qIpAYs3PQQKP8+7Lr+IHYjq/0H7naKX3wzbMF9U62l4MukGjSojqbDFd3cokk+ds4dLTl00qgUXnNsl69Kd26qTtqyJoGdgv4QPYxM7f+Lgpjpix1NJi/I="
+    - secure: "Vjy7bSJdqIyM1u5b7tKmXD567jXnuMH5OhtrT9zHoq9cpEuU7THOANGjbeF2ihYXeesibpg7SA2Nn+5UDM9PTXpBLJ7sSZvkbOZrUEhPJB9VY4q8z9hcaHkzkUywiWr7/doG60Ycp5EfSzNpGNeBJoMs6uopmYU86Evxc9jPgUg="
+# Generate your secure token with the travis gem:
+# get Github token from your Travis CI profile page
+# gem install travis
+# travis encrypt 'GIT_NAME="YOUR_USERNAME" GIT_EMAIL="YOUR_EMAIL" GH_TOKEN=YOUR_TOKEN'
