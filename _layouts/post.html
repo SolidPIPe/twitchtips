@@ -36,6 +36,7 @@
   </div>
   <article>
     <div class="headline-wrap">
+      {% include _search.html %}
       {% if page.link %}
         <h1><a href="{{ page.link }}">{{ page.title }}</a></h1>
       {% else %}
@@ -49,7 +50,6 @@
     </div>
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
-      {% include _search.html %}
       {{ content }}
       <hr />
       <footer role="contentinfo">
