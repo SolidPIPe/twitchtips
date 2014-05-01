@@ -1,171 +1,178 @@
+(function($) {
 
-// Capitalises a string
-// Accepts:
-//   str: string
-// Returns:
-//   string
-majusculeFirst = function(str) {
-  return str.charAt(0).toUpperCase() + str.substring(1);
-};
+  var debounce = function(fn) {
+    var timeout;
+    var slice = Array.prototype.slice;
 
-// Retrieves the value of a GET parameter with a given key
-// Accepts:
-//   param: string
-// Returns:
-//   string or null
-getParam = function(param) {
-  var queryString = window.location.search.substring(1),
-      queries = queryString.split('&');
-  for (var i in queries) {
-    var pair = queries[i].split('=');
-    if (pair[0] === param) {
-      // Decode the parameter value, replacing %20 with a space etc.
-      return decodeURI(pair[1]);
+    return function() {
+      var args = slice.call(arguments),
+          ctx = this;
+
+      clearTimeout(timeout);
+
+      timeout = setTimeout(function () {
+        fn.apply(ctx, args);
+      }, 100);
+    };
+  };
+  
+  // parse a date in yyyy-mm-dd format
+  var parseDate = function(input) {
+    var parts = input.match(/(\d+)/g);
+    return new Date(parts[0], parts[1]-1, parts[2]); // months are 0-based
+  };
+  
+  var LunrSearch = (function() {
+    function LunrSearch(elem, options) {
+      this.$elem = elem;      
+      this.$results = $(options.results);
+      this.$entries = $(options.entries, this.$results);
+      this.indexDataUrl = options.indexUrl;
+      this.index = this.createIndex();
+      this.template = this.compileTemplate($(options.template));
+      
+      this.initialize();
     }
-  }
-  return null;
-};
-
-// Filters posts with the condition `post['property'] == value`
-// Accepts:
-//   posts - array of post objects and a string
-//   property - string of post object property to compare
-//   value - filter value of property
-// Returns:
-//   array of post objects
-filterPostsByPropertyValue = function(posts, property, value) {
-  var filteredPosts = [];
-  // The last element is a null terminator
-  posts.pop();
-  for (var i in posts) {
-    var post = posts[i],
-        prop = post[property];
-    // Last element of tags is null
-    post.tags.pop();
-
-    // The property could be a string, such as a post's category,
-    // or an array, such as a post's tags
-    if (prop.constructor === String) {
-      if (prop.toLowerCase() === value.toLowerCase()) {
-        filteredPosts.push(post);
-      }
-    } else if (prop.constructor === Array) {
-      for (var j in prop) {
-        if (prop[j].toLowerCase() === value.toLowerCase()) {
-          filteredPosts.push(post);
-        }
-      }
-    }
-  }
-
-  return filteredPosts;
-};
-
-// Formats search results and appends them to the DOM
-// Accepts:
-//   property: string of object type we're displaying
-//   value: string of name of object we're displaying
-//   posts: array of post objects
-// Returns:
-//   undefined
-layoutResultsPage = function(property, value, posts) {
-  var $container = $('#index');
-  if ($container.length === 0) return;
-
-  // Update the header
-  $container.find('h3').text(majusculeFirst(property)
-    + ' Listing for ‘'
-    + majusculeFirst(value)
-    + '’'
-  );
-
-  for (var i in posts) {
-    // Create an unordered list of the post's tags
-    var tagsList = '<ul class="tags">',
-        post     = posts[i],
-        tags     = post.tags;
-
-    for (var j in tags) {
-      tagsList += ''
-        + '<li>'
-          + '<a href="/search.html?tags=' + tags[j] + '">' + tags[j] + '</a>'
-        + '</li>';
-    }
-    tagsList += '</ul>';
-
-    $container.append(
-      '<article>'
-        + '<h2>'
-          + '<a href="' + post.href + '" title="' + post.title + '">' + post.title + '</a>'
-        + '</h2>'
-      + '</article>'
-    );
-
-    /*        // Post date
-        + '<h2>'
-          + post.date.formatted
-          + ' in <a href="/search.html?category=' + post.category + '">'
-          +  majusculeFirst(post.category) + '</a>'
-        + '</h2>'
-        // Tags
-        + tagsList*/
-  }
-};
-
-// Formats the search results page for no results
-// Accepts:
-//   property: string of object type we're displaying
-//   value: string of name of object we're displaying
-// Returns:
-//   undefined
-noResultsPage = function(property, value) {
-   $('main').find('h1').text('No Results Found.').after(
-    '<p>We couldn\'t find anything associated with ‘' + value + '’ here.</p>'
-  );
-};
-
-// Replaces ERB-style tags with Liquid ones as we can't escape them in posts
-// Accepts:
-//   elements: jQuery elements in which to replace tags
-// Returns:
-//   undefined
-replaceERBTags = function(elements) {
-  elements.each(function() {
-    // Only for text blocks at the moment as we'll strip highlighting otherwise
-    var $this = $(this),
-        txt   = $this.html();
-
-    // Replace <%=  %>with {{ }}
-    txt = txt.replace(new RegExp('&lt;%=(.+?)%&gt;', 'g'), '{{$1}}');
-    // Replace <% %> with {% %}
-    txt = txt.replace(new RegExp('&lt;%(.+?)%&gt;', 'g'), '{%$1%}');
-
-    $this.html(txt);
-  });
-};
-
-$(function() {
-  var parameters = ['category', 'tags'];
-  var map = {}
-  for (var idx in parameters) {
-    map[parameters[idx]] = getParam(parameters[idx]);
-  }
-
-  $.each(map, function(type, value) {
-    if (value !== null) {
-      $.getJSON('/search.json', function(data) {
-        posts = filterPostsByPropertyValue(data, type, value);
-        if (posts.length === 0) {
-          noResultsPage(type, value);
-        } else {
-          layoutResultsPage(type, value, posts);
-        }
+        
+    LunrSearch.prototype.initialize = function() {
+      var self = this;
+      
+      this.loadIndexData(function(data) {
+        self.populateIndex(data);
+        self.populateSearchFromQuery();
+        self.bindKeypress();
       });
-    }
-  });
+    };
+    
+    // create lunr.js search index specifying that we want to index the title and body fields of documents.
+    LunrSearch.prototype.createIndex = function() {
+      return lunr(function() {
+        this.field('title', { boost: 10 });
+        this.field('body');
+        this.ref('id');      
+      });
+    };
+    
+    // compile search results template
+    LunrSearch.prototype.compileTemplate = function($template) {      
+      var template = $template.text();
+      Mustache.parse(template);
+      return function (view, partials) {
+        return Mustache.render(template, view, partials);
+      };
+    };
+        
+    // load the search index data
+    LunrSearch.prototype.loadIndexData = function(callback) {
+      $.getJSON(this.indexDataUrl, callback);
+    };
+    
+    LunrSearch.prototype.populateIndex = function(data) {
+      var index = this.index;
+          
+      // format the raw json into a form that is simpler to work with
+      this.entries = $.map(data.entries, this.createEntry);
 
-  // Replace ERB-style Liquid tags in highlighted code blocks...
-  replaceERBTags($('div.highlight').find('code.text'));
-  // ... and in inline code
-  replaceERBTags($('p code'));
-});
+      $.each(this.entries, function(idx, entry) {
+        index.add(entry);
+      });
+    };
+
+    LunrSearch.prototype.createEntry = function(raw, index) {
+      var entry = $.extend({
+        id: index + 1
+      }, raw);
+      
+      // include pub date for posts
+      if (raw.date) {
+        $.extend(entry, {
+          date: parseDate(raw.date),
+          pubdate: function() {
+            // HTML5 pubdate
+            return dateFormat(parseDate(raw.date), 'yyyy-mm-dd');
+          },
+          displaydate: function() {
+            // only for posts (e.g. Oct 12, 2012)
+            return dateFormat(parseDate(raw.date), 'mmm dd, yyyy');
+          }
+        });
+      }
+      
+      return entry;
+    };
+    
+    LunrSearch.prototype.bindKeypress = function() {
+      var self = this;
+      var oldValue = this.$elem.val();
+
+      this.$elem.bind('keyup', debounce(function() {
+        var newValue = self.$elem.val();
+        if (newValue !== oldValue) {
+          self.search(newValue);
+        }
+
+        oldValue = newValue;
+      }));
+    };
+    
+    LunrSearch.prototype.search = function(query) {
+      var entries = this.entries;
+      
+      if (query.length < 2) {
+        this.$results.hide();
+        this.$entries.empty();
+      } else {
+        var results = $.map(this.index.search(query), function(result) {
+          return $.grep(entries, function(entry) { return entry.id === parseInt(result.ref, 10); })[0];
+        });
+        
+        this.displayResults(results);
+      }
+    };
+    
+    LunrSearch.prototype.displayResults = function(entries) {
+      var $entries = this.$entries,
+        $results = this.$results;
+        
+      $entries.empty();
+      
+      if (entries.length === 0) {
+        $entries.append('<p>We looked everywhere, but couldn\'t find what you were looking for...</p>');
+      } else {
+        $entries.append(this.template({entries: entries}));
+      }
+      
+      $results.show();
+    };
+    
+    // Populate the search input with 'q' querystring parameter if set
+    LunrSearch.prototype.populateSearchFromQuery = function() {
+      var uri = new URI(window.location.search.toString());
+      var queryString = uri.search(true);
+
+      if (queryString.hasOwnProperty('q')) {
+        this.$elem.val(queryString.q);
+        this.search(queryString.q.toString());
+      }
+    };
+    
+    return LunrSearch;
+  })();
+
+  $.fn.lunrSearch = function(options) {
+    // apply default options
+    options = $.extend({}, $.fn.lunrSearch.defaults, options);      
+
+    // create search object
+    new LunrSearch(this, options);
+    
+    return this;
+  };
+  
+  $.fn.lunrSearch.defaults = {
+    indexUrl  : '/search.json',     // Url for the .json file containing search index source data (containing: title, url, date, body)
+    results   : '#search-results',  // selector for containing search results element
+    entries   : '.entries',         // selector for search entries containing element (contained within results above)
+    template  : '#search-results-template'  // selector for Mustache.js template
+  };
+})(jQuery);

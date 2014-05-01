@@ -43,6 +43,7 @@
       <a href="http://reddit.com/submit?url={{ site.url }}{{ page.url }}" title="Share on Reddit"><span class="count"><i class="icon-reddit"></i> Reddit</span></a>
     </div>
     <div class="article-wrap">
+      {% include _search.html %}
       {{ content }}
     </div><!-- /.article-wrap -->
     {% if site.disqus_shortname and page.comments %}

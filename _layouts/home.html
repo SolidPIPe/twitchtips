@@ -35,6 +35,7 @@
 </div>
 
 <div id="index">
+  {% include _search.html %}
   {{ content }}
   <h3><a href="{{ site.url}}/posts/">Recent Posts</a></h3>
   {% for post in site.posts limit:5 %}    
