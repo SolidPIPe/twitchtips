@@ -3,3 +3,5 @@ Powered by [Jekyll](http://jekyllrb.com) using the [Minimal Mistakes](http://mad
 
 Contribution guidelines:
 [Contribute](http://twitchtips.com/contribute)
+
+[![Build Status](https://travis-ci.org/TwitchTips/twitchtips.svg?branch=master)](https://travis-ci.org/TwitchTips/twitchtips)
