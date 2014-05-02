@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://twitchtips.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://twitchtips.com" />
-<updated>2014-05-01T18:31:52+01:00</updated>
+<updated>2014-05-02T18:08:20+01:00</updated>
 <id>http://twitchtips.com/</id>
 <author>
   <name>Twitch Tips</name>
@@ -13,6 +13,75 @@
 </author>
 
   
+  <entry>
+    <title type="html"><![CDATA[The BetterTTV Extension]]></title>
+    <link rel="alternate" type="text/html" href="http://twitchtips.com/betterttv/" />
+    <id>http://twitchtips.com/betterttv</id>
+    <published>2014-05-01T00:00:00+01:00</published>
+    <updated>2014-05-01T00:00:00+01:00</updated>
+    <author>
+      <name>Twitch Tips</name>
+      <uri>http://twitchtips.com</uri>
+      <email>contact@twitchtips.com</email>
+    </author>
+    <content type="html">&lt;p&gt;BetterTTV Enhances Twitch with new features, bug fixes, and reduced clutter.&lt;/p&gt;
+
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Chat Tweaks&lt;/li&gt;
+  &lt;li&gt;Blacklist spam&lt;/li&gt;
+  &lt;li&gt;Chat field history&lt;/li&gt;
+  &lt;li&gt;Highlight words and phrases&lt;/li&gt;
+  &lt;li&gt;Improved connection monitoring&lt;/li&gt;
+  &lt;li&gt;Improved server selection&lt;/li&gt;
+  &lt;li&gt;Resizeable (drag-able) chat&lt;/li&gt;
+  &lt;li&gt;Show or remove deleted messages&lt;/li&gt;
+  &lt;li&gt;Split chat lines and paragraph indentation&lt;/li&gt;
+  &lt;li&gt;Unban all users with /massunban&lt;/li&gt;
+  &lt;li&gt;Username color calculation (prevents hard-to-read names)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Username tab completion&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Broadcast Dashboard
+&lt;br /&gt;Prioritizes chat, and auto-updates channel statistics&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Darken Twitch
+&lt;br /&gt;A slick, grey theme which will make you love Twitch even more&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Notifications
+&lt;br /&gt;On-site and desktop notifications when people send you messages, mention you in chat, and when channels you follow go live &amp;amp; More!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;a-quick-guide-to-setting-up-betterttv&quot;&gt;A Quick guide to setting up BetterTTV&lt;/h2&gt;
+
+&lt;p&gt;Download it from the specific link for your browser&lt;br /&gt;
+&lt;a href=&quot;https://chrome.google.com/webstore/detail/betterttv/ajopnjidmegmdimjlfnijceegpefgped?hl=en&quot;&gt;Chrome&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.nightdev.com/betterttv/betterttvfirefox.xpi&quot;&gt;Firefox&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.nightdev.com/betterttv/betterttvopera.nex&quot;&gt;Opera&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.nightdev.com/betterttv/betterttvsafari.safariextz&quot;&gt;Safari&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.nightdev.com/betterttv/betterttvie.exe&quot;&gt;Internet Explorer&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.nightdev.com/betterttv/betterttv.user.js&quot;&gt;UserScript for GreaseMonkey / Tamper Monkey&lt;/a&gt;  &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;Once you have installed it navigate to a TwitchTV channel, Click the Cog And Click BetterTTV Settings.&lt;/p&gt;
+
+&lt;figure&gt;
+ &lt;a href=&quot;/images/customization_guide/bttv_howto_settings.png&quot;&gt;&lt;img src=&quot;/images/customization_guide/bttv_howto_settings.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;Then choose your settings, Below are my custom settings which I think are the best way to do it but feel free to try everything out!&lt;/p&gt;
+
+&lt;figure&gt;
+ &lt;a href=&quot;/images/customization_guide/bttv_custom_settings.png&quot;&gt;&lt;img src=&quot;/images/customization_guide/bttv_custom_settings.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Write up by &lt;a href=&quot;http://twitter.com/GavXD&quot;&gt;Gav&lt;/a&gt;, Thanks to &lt;a href=&quot;http://nightdev.com&quot;&gt;NightDev&lt;/a&gt; for his amazing Add-on!&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://twitchtips.com/betterttv/&quot;&gt;The BetterTTV Extension&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;http://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on May 01, 2014.&lt;/p&gt;</content>
+  </entry>
+
 
   
   <entry>
