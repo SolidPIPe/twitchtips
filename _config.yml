@@ -12,6 +12,7 @@ exclude:
   - "*.Rmd"
   - vendor
   - .travis.yml
+  - _site
 
 title:            Twitch Tips
 description:      Describe your website.
@@ -20,7 +21,8 @@ url:              http://twitchtips.com
 disqus_shortname: twitchtips
 
 
-destination: ./_site/
+source: ./
+destination: ./_site
 
 # Settings for deploy rake task
 # Username and repo of Github repo, e.g.
