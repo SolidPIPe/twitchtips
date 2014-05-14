@@ -17,10 +17,21 @@ Firstly thanks for taking the time to hop on over here and check the blog out. S
 
 ### Who operates this blog?
 
-Below is a list of all those who currently work on, add to or maintain this blog.
+Below is a list of all those who currently work on, add to or maintain this site.
 
 * [Twitch Admin] Truthful [@TruthfulUK](http://twitter.com/TruthfulUK)
 * David Marby [@DMarby](http://twitter.com/DMarby)
+
+### Contributors
+
+Below is a list of all those who have contributed to the site.
+
+* [PIPe](http://www.twitch.tv/pipe)
+* [@xangold](https://twitter.com/xangold)
+* [@bgeorge](https://twitter.com/bgeorge)
+* [@commanderroot](https://twitter.com/commanderroot)
+* [@ShannonZKiller](https://www.twitter.com/ShannonZKiller)
+* [@GavXD](http://twitter.com/GavXD)
 
 ### Got a request?
 
