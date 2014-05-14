@@ -1,0 +1,55 @@
+---
+layout: page
+permalink: /ban-checker/
+title: Ban Checker
+modified: 14-5-2014
+comments: false
+---
+
+{% raw %}
+	<form id="ban-check-form" style="float: left; margin-top: 10px;">
+	    <div class="form-group pull-right">
+	        <input style="height: 50px; width: 400px; padding-left: 10px; font-size: 18pt; font-family: 'PT Sans Narrow',sans-serif" type="text" id="ban-check" class="form-control" name="q" placeholder="Enter your twitch username" autocomplete="off">
+	    </div>
+	</form>
+	<p id="description" style="float: left; font-family: 'PT Sans Narrow',sans-serif; font-size: 18pt; width: 400px;">Enter your twitch username and press enter to make sure your account is actually banned before opening a ticket to twitch support. <br/>It may save you a lot of time.</p>
+	<div id="resultbox" style="text-transform: uppercase; font-family: 'PT Sans Narrow',sans-serif; padding: 10px; display: none; float: left; clear: both; width: 380px; height: 100px; border-radius: 5px; color: white;"></div>
+	<script type="text/javascript">
+			$('#ban-check-form').submit(function (e) {
+				e.preventDefault();
+			})
+	    $('#ban-check-form').keyup(function(e) {
+	        if (e.keyCode == 13) {
+	        		$("#description").fadeOut(20);
+	        	  e.preventDefault();
+	        	  var user = $('#ban-check').val();
+	            $.ajax({
+	                url: 'https://api.twitch.tv/kraken/channels/' + user + '?callback=?',
+	                dataType: 'jsonp'
+	            }).done(function(data) {
+	                if (/.+is unavailable$/.test(data.message)) { // Ban Check
+	                		$("#resultbox").fadeIn();
+	                    $("#resultbox").css("border", "1px solid #7f1010");
+	                    $("#resultbox").css("background-color", "#ed6e6e");
+                      $("#resultbox").css("height", "100px");
+	                   	$("#resultbox").html('<h3 style="margin: 0px; font-weight: normal;">Oh dear!</h3>It looks like you were banned from twitch, please open a ticket via the <a target="_blank" style="color: #fff" href="http://help.twitch.tv/"><strong>official twitch support</strong></a> site in order to see why you were banned.<br/><span style="color: #000"><strong>TwitchTips</strong> can not and will not help with your appeal</span>');
+	                } else if (/.+is not available on Twitch$/.test(data.message) || /.+does not exist$/.test(data.message)) { // JTV Check
+	                		$("#resultbox").fadeIn();
+    								 	$("#resultbox").css("border", "1px solid #8f5211");
+	                    $("#resultbox").css("background-color", "#f2a33c");
+                      $("#resultbox").css("height", "70px");
+	                   	$("#resultbox").html('<h3 style="margin: 0px; font-weight: normal;">Hmm, That\'s not right!</h3>The account you checked does not exist or seems to be on Justin.TV.');
+	                } else {
+	                		$("#resultbox").fadeIn();
+            				 	$("#resultbox").css("border", "1px solid #2e3c0d");
+	                    $("#resultbox").css("background-color", "#78a410");
+                      $("#resultbox").css("height", "270px");
+	                   	$("#resultbox").html('<h3 style="margin: 0px; font-weight: normal;">All is well!</h3>The account provided does not seem to be banned on Twitch. If you\'re still seeing a message telling you that you\'re blocked from twitch try disabling any vpn, proxy service or extension which re-routes traffic to and from your browser.<br/><br/>Got multiple accounts? Try checking those as well as twitch bans can be ip based.<br/><br/>If after doing so you are still getting the message telling you that you\'re blocked your ISP may have issued a previously banned ip address, <a style="color: #fff" href="http://help.twitch.tv/" target="_blank"><strong>open a ticket</strong></a> to check.');
+	                }
+	            }).fail(function(data, status, error) {
+	                console.log(data, status, error)
+	            });
+	        }
+	    });
+	</script>
+{% endraw %}
