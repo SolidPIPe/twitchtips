@@ -4,6 +4,7 @@ title: Justinfan Issue
 description: "Is your name showing up as Justinfan followed by random numbers in chat, here's how to fix it"
 tags: [twitch,justin,fan,chat,nick]
 comments: true
+draft: true
 ---
 
 Is your name showing up as Justinfan followed by random numbers in chat, here's how to fix it!
