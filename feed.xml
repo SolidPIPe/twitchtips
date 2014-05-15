@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://twitchtips.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://twitchtips.com" />
-<updated>2014-05-15T00:26:54+01:00</updated>
+<updated>2014-05-15T03:04:25+01:00</updated>
 <id>http://twitchtips.com/</id>
 <author>
   <name>Twitch Tips</name>
@@ -225,30 +225,6 @@
 
 
   
-  <entry>
-    <title type="html"><![CDATA[Justinfan Issue]]></title>
-    <link rel="alternate" type="text/html" href="http://twitchtips.com/justinfan/" />
-    <id>http://twitchtips.com/justinfan</id>
-    <published>2014-04-27T00:00:00+01:00</published>
-    <updated>2014-04-27T00:00:00+01:00</updated>
-    <author>
-      <name>Twitch Tips</name>
-      <uri>http://twitchtips.com</uri>
-      <email>contact@twitchtips.com</email>
-    </author>
-    <content type="html">&lt;p&gt;Is your name showing up as Justinfan followed by random numbers in chat, here’s how to fix it!&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;You may occasionally see your name displayed as “Justinfan” temporarily if there was an issue loading all required data when attempting to view a stream. &lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;strong&gt;A simple page refresh will correct this issue 98% of the time&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;“Justinfan” accounts are special accounts that users not logged in to Twitch will use to connect to the chat servers and view chat. They cannot talk so any messages you send as one will not be seen by anyone.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;Thanks to &lt;a href=&quot;https://twitter.com/bgeorge&quot;&gt;George&lt;/a&gt; for this write-up.&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://twitchtips.com/justinfan/&quot;&gt;Justinfan Issue&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;http://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on April 27, 2014.&lt;/p&gt;</content>
-  </entry>
-
 
   
   <entry>
