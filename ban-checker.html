@@ -102,43 +102,45 @@ comments: false
 		}
 	
 		$(document).ready(function() {
-			$('#ban-check-form').submit(function (e) {
+			$('#ban-check').submit(function (e) {
 				e.preventDefault();
+			});
+			
+			$('#ban-check').keyup(function(e) {
+				if (e.keyCode !== 13) return;
+				e.preventDefault();
+
+				$(".description").fadeOut(20);
+
+				var user = $('#ban-check input').val();
+				$.getJSON('https://api.twitch.tv/kraken/users/' + encodeURIComponent(user) + '?callback=?').done(function(data) {
+					var message = '';
+					if (/.+is unavailable$/.test(data.message)) { // Ban Check
+						message += 'It looks like you were banned from twitch, please open a ticket via the ';
+						message += '<a target="_blank" href="http://help.twitch.tv/">official twitch support</a> ';
+						message += 'site in order to see why you were banned.<br />';
+						message += '<span>TwitchTips cannot and will not help with your appeal</span>';
+						formResult('fail', message);
+					} else if (/.+is not available on Twitch$/.test(data.message) || /.+does not exist$/.test(data.message)) { // JTV/Nonexistant Check
+						message += 'That account is either not a Twitch account or it does not exist.';
+						formResult('warn', message);
+					} else {
+						message += 'The account provided does not seem to be banned on Twitch. ';
+						message += 'If you\'re seeing a message telling you that you\'re blocked from Twitch, ';
+						message += 'try disabling any VPN, proxy, or extension which re-routes traffic from your browser.<br/><br/>';
+						message += 'Got multiple accounts? Try checking those too because Twitch bans can be IP based.<br/><br/>';
+						message += 'If after doing so you are still getting the same error, ';
+						message += 'your ISP may have provided your modem with a previously banned IP address. ';
+						message += 'You can <a style="color: #fff" href="http://help.twitch.tv/" target="_blank"><strong>open a ticket</strong></a> with Twitch to check.';
+						formResult('success', message);
+					}
+				}).fail(function() {
+					var message = 'The Twitch API appears to have returned an invalid response. Twitch may be having issues at the moment.';
+					formResult('warn', message);
+				});
 			});
 		});
 		
-		$('#ban-check-form').keyup(function(e) {
-			if (e.keyCode !== 13) return;
-
-			$("#description").fadeOut(20);
-			e.preventDefault();
-
-			var user = $('#ban-check input').val();
-			$.getJSON('https://api.twitch.tv/kraken/users/' + encodeURIComponent(user) + '?callback=?').done(function(data) {
-				var message = '';
-				if (/.+is unavailable$/.test(data.message)) { // Ban Check
-					message += 'It looks like you were banned from twitch, please open a ticket via the ';
-					message += '<a target="_blank" href="http://help.twitch.tv/">official twitch support</a> ';
-					message += 'site in order to see why you were banned.<br />';
-					message += '<span>TwitchTips cannot and will not help with your appeal</span>';
-					formResult('fail', message);
-				} else if (/.+is not available on Twitch$/.test(data.message) || /.+does not exist$/.test(data.message)) { // JTV/Nonexistant Check
-					message += 'That account is either not a Twitch account or it does not exist.';
-					formResult('warn', message);
-				} else {
-					message += 'The account provided does not seem to be banned on Twitch. ';
-					message += 'If you\'re seeing a message telling you that you\'re blocked from Twitch, ';
-					message += 'try disabling any VPN, proxy, or extension which re-routes traffic from your browser.<br/><br/>';
-					message += 'Got multiple accounts? Try checking those too because Twitch bans can be IP based.<br/><br/>';
-					message += 'If after doing so you are still getting the same error, ';
-					message += 'your ISP may have provided your modem with a previously banned IP address. ';
-					message += 'You can <a style="color: #fff" href="http://help.twitch.tv/" target="_blank"><strong>open a ticket</strong></a> with Twitch to check.';
-					formResult('success', message);
-				}
-			}).fail(function() {
-				var message = 'The Twitch API appears to have returned an invalid response. Twitch may be having issues at the moment.';
-				formResult('warn', message);
-			});
-		});
+		
 	</script>
 {% endraw %}
