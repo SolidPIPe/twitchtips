@@ -34,6 +34,7 @@ Below is a list of all those who have contributed to the site.
 * [@GavXD](http://twitter.com/GavXD)
 * [@nightwalker925](https://twitter.com/nightwalker925)
 * [@TheRealIndie](https://twitter.com/TheRealIndie)
+* [@Izlsnizzt](http://www.twitter.com/Izlsnizzt)
 
 ### Got a request?
 
