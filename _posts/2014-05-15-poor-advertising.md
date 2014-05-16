@@ -4,7 +4,6 @@ title: Poor Advertising
 description: "What is the worst way to try and get viewers? Find out with this quick video!"
 tags: [twitch,advertise,viewers,bad]
 comments: true
-draft: true
 ---
 
 What is the worst way to try and get viewers? Find out with this quick video!
