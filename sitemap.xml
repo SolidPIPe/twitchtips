@@ -7,19 +7,27 @@
     
         
         <url>
-            <loc>http://twitchtips.com/ban-checker/</loc>
+            <loc>http://twitchtips.com/contribute/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://twitchtips.com/posts/</loc>
+            <loc>http://twitchtips.com/search.html</loc>
         </url>
+        
+    
         
     
         
         <url>
             <loc>http://twitchtips.com/about/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://twitchtips.com/index.html</loc>
         </url>
         
     
@@ -36,31 +44,23 @@
         
     
         
-    
-        
-        <url>
-            <loc>http://twitchtips.com/contribute/</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://twitchtips.com/search.html</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://twitchtips.com/index.html</loc>
-        </url>
-        
-    
-        
-    
-        
         <url>
             <loc>http://twitchtips.com/get-started/</loc>
         </url>
+        
+    
+        
+        <url>
+            <loc>http://twitchtips.com/posts/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://twitchtips.com/ban-checker/</loc>
+        </url>
+        
+    
         
     
 
