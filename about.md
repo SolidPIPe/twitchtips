@@ -33,6 +33,7 @@ Below is a list of all those who have contributed to the site.
 * [@ShannonZKiller](https://www.twitter.com/ShannonZKiller)
 * [@GavXD](http://twitter.com/GavXD)
 * [@nightwalker925](https://twitter.com/nightwalker925)
+* [@TheRealIndie](https://twitter.com/TheRealIndie)
 
 ### Got a request?
 
