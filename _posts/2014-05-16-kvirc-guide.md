@@ -5,7 +5,6 @@ description: "Connecting to Twitch IRC can be quite the task for those not knowl
 tags: [twitch,kvirc,irc,twitch,chat,oauth]
 comments: true
 get-started: true
-draft: true
 ---
 
 Connecting to Twitch IRC can be quite the task for those not knowledgeable with IRC client, check out how you can set yourself up connecting to Twitch chats using KVIRC.
