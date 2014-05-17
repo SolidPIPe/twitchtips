@@ -20,6 +20,8 @@ description:      Describe your website.
 url:              http://twitchtips.com
 disqus_shortname: twitchtips
 
+# Permalink of giveaway page
+giveaway: giveaway-one
 
 source: ./
 destination: ./_site
