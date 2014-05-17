@@ -20,6 +20,5 @@ Be sure to follow us on Twitter so we can DM you the redeem code if you do win! 
 ---
 
 Thanks to the awesome guys over at Twitch who gave us this opportunity to give you all a little something different. 
-
+<br>
 If you do win be sure to send your thanks over to [@Xangold](https://www.twitter.com/xangold) and [@JasonMaestas](https://www.twitter.com/JasonMaestas).
-
