@@ -5,7 +5,7 @@ title: TwitchTips First Giveaway!
 modified: 17-5-2014
 comments: true
 ---
-Hey gamers, casters and viewers! Today we have a special treat for you all - thanks to the awesome guys and girls at Twitch we've been given **5 Kappa Emote** subscriptions to giveaway!  
+Hey gamers, casters and viewers! Today we have a special treat for you all - thanks to the awesome guys and girls at Twitch we've been given [**5 Kappa Emote subscriptions**](http://twitch.tv/twitch/subscribe) to giveaway!  
 <br>
 These subscriptions last until December 31st, 11:59AM - essentially it's a subscription to Twitch's official channel until end of the year so you can use their wonderful coloured Kappa emotes!  
 <br>
